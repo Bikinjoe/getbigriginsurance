@@ -1,0 +1,53 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  --color-ink: #0d1b2a;
+  --color-flame: #ff6b1a;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  @apply bg-white text-ink antialiased;
+  font-feature-settings: "kern" 1, "liga" 1;
+}
+
+@layer components {
+  .btn-primary {
+    @apply inline-flex items-center justify-center rounded-md bg-flame px-5 py-3 text-base font-semibold text-white shadow-sm transition hover:bg-flameDark focus:outline-none focus:ring-2 focus:ring-flame focus:ring-offset-2;
+  }
+  .btn-secondary {
+    @apply inline-flex items-center justify-center rounded-md border border-ink/20 bg-white px-5 py-3 text-base font-semibold text-ink transition hover:bg-mist focus:outline-none focus:ring-2 focus:ring-ink focus:ring-offset-2;
+  }
+  .btn-ghost {
+    @apply inline-flex items-center justify-center rounded-md px-4 py-2 text-base font-semibold text-ink transition hover:bg-mist;
+  }
+  .container-narrow {
+    @apply mx-auto w-full max-w-5xl px-4 sm:px-6 lg:px-8;
+  }
+  .prose-trucking h2 {
+    @apply mt-10 text-2xl font-bold text-ink sm:text-3xl;
+  }
+  .prose-trucking h3 {
+    @apply mt-6 text-xl font-semibold text-ink sm:text-2xl;
+  }
+  .prose-trucking p {
+    @apply mt-4 text-base leading-relaxed text-steel sm:text-lg;
+  }
+  .prose-trucking ul {
+    @apply mt-4 list-disc space-y-2 pl-5 text-base text-steel sm:text-lg;
+  }
+  .prose-trucking ol {
+    @apply mt-4 list-decimal space-y-2 pl-5 text-base text-steel sm:text-lg;
+  }
+  .prose-trucking a {
+    @apply font-semibold text-flame underline-offset-2 hover:underline;
+  }
+  .prose-trucking strong {
+    @apply text-ink;
+  }
+}
