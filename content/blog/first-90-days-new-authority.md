@@ -1,5 +1,5 @@
 ---
-title: "Your First 90 Days as a New Authority — Insurance Edition"
+title: "Your First 90 Days as a New Authority, Insurance Edition"
 date: 2026-04-22
 tags: [new-authority, owner-operator]
 excerpt: "What to do, what to avoid, and what insurance moves to make in your first 90 days as a new MC/DOT holder."
@@ -23,7 +23,7 @@ Now the job is to start running clean and getting paid. From an insurance standp
 
 - Every load adds to your operating history
 - Every accident or claim in this window is the worst possible time
-- Carriers re-underwrite some accounts at 6 months — your record now is what they'll see then
+- Carriers re-underwrite some accounts at 6 months, your record now is what they'll see then
 
 Drive defensively, log honestly, run your pre-trips. The cheapest insurance long term is a clean record.
 
@@ -37,7 +37,7 @@ If a broker requires specific coverage you don't have (trailer interchange, spec
 
 Most new authorities finance their premium monthly through a premium finance company. Your first installment is usually fine. Your second and third can sometimes catch you off guard if cash flow is tight.
 
-Set up auto-pay from your business account. Track your renewal date — most policies are 12-month terms, but renewal shopping starts 60 days before expiration.
+Set up auto-pay from your business account. Track your renewal date, most policies are 12-month terms, but renewal shopping starts 60 days before expiration.
 
 ## Common mistakes to avoid
 
@@ -52,4 +52,4 @@ Set up auto-pay from your business account. Track your renewal date — most pol
 
 We shop your account across our 23+ carrier panel. We bind same-day when possible. We file your BMC-91 with FMCSA. We issue COIs to brokers within minutes during business hours. We re-underwrite at 6 months if you're eligible. We re-shop at renewal.
 
-If you're a new authority and you don't already have an agent who's doing all of that — call us. Call or text 541-681-8793.
+If you're a new authority and you don't already have an agent who's doing all of that, call us. Call or text 541-681-8793.

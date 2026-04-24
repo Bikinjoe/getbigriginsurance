@@ -5,11 +5,11 @@ tags: [coverage, owner-operator, cost]
 excerpt: "Cargo coverage seems simple until you have a claim. Here are five common mistakes that catch owner-ops off guard."
 ---
 
-Cargo coverage looks simple on a quote sheet — $100,000 limit, $1,000 deductible, premium of $125/month. But the real-world claim experience is where most owner-ops find the gaps. Here are five common mistakes to avoid.
+Cargo coverage looks simple on a quote sheet, $100,000 limit, $1,000 deductible, premium of $125/month. But the real-world claim experience is where most owner-ops find the gaps. Here are five common mistakes to avoid.
 
 ## 1. Not reading the exclusions
 
-Standard motor truck cargo policies exclude a long list of commodities by default — high-value electronics, jewelry, furs, alcohol, tobacco, pharmaceuticals, live animals, refrigerated goods (without reefer breakdown endorsement), household goods, and others.
+Standard motor truck cargo policies exclude a long list of commodities by default, high-value electronics, jewelry, furs, alcohol, tobacco, pharmaceuticals, live animals, refrigerated goods (without reefer breakdown endorsement), household goods, and others.
 
 If you take a load of one of those without the right endorsement, the carrier can deny the claim. Read the exclusions list. If you might haul any of them, ask your agent to add the endorsement.
 
@@ -21,7 +21,7 @@ Some brokers will require you to carry higher cargo limits before they let you t
 
 ## 3. Not having reefer breakdown endorsement
 
-If you haul reefer freight and your reefer unit fails, spoiling the load — standard cargo coverage often does not pay. You need a reefer breakdown endorsement.
+If you haul reefer freight and your reefer unit fails, spoiling the load, standard cargo coverage often does not pay. You need a reefer breakdown endorsement.
 
 This is one of the most common claim disputes we see. The trucker assumes their cargo policy covers it. The carrier denies because the breakdown was a mechanical failure, not a covered cargo loss. Add the endorsement.
 
@@ -33,7 +33,7 @@ Pre-trip the load. Note any visible damage on the BOL. Take photos. Get the ship
 
 ## 5. Trying to handle small claims out of pocket
 
-Some owner-ops handle small cargo claims (under $5,000) themselves to avoid raising premiums at renewal. This can backfire — the broker may see the load as damaged in transit, and your no-claim record might still be hit through the broker's own reporting system.
+Some owner-ops handle small cargo claims (under $5,000) themselves to avoid raising premiums at renewal. This can backfire, the broker may see the load as damaged in transit, and your no-claim record might still be hit through the broker's own reporting system.
 
 Talk to your agent before paying any cargo damage out of pocket. Sometimes filing the claim is the right call. Sometimes it isn't.
 

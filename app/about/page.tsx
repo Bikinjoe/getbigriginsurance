@@ -17,7 +17,7 @@ export default function AboutPage() {
       <PageHero
         eyebrow="About"
         title="We Specialize in Trucking Insurance. That's It."
-        sub="No home, no auto, no life, no commercial dabbling. We write trucking — for new authorities, owner operators, and small fleets. That's the whole business."
+        sub="No home, no auto, no life, no commercial dabbling. We write trucking, for new authorities, owner operators, and small fleets. That's the whole business."
       />
       <Breadcrumbs items={[{ label: "About" }]} />
 
@@ -26,19 +26,16 @@ export default function AboutPage() {
           Who You're Working With
         </h2>
         <div className="mt-6 grid gap-6 md:grid-cols-[200px_minmax(0,1fr)] md:gap-8">
-          <div className="rounded-lg border border-border bg-surface-2 p-3">
+          <div className="overflow-hidden rounded-lg border border-border bg-surface-2 p-3">
             {/* eslint-disable-next-line @next/next/no-img-element */}
             <img
-              src="/team/richard-sweet.jpg"
+              src="/images/richard-sweet.jpg"
               alt="Richard Sweet, Trucking Insurance Specialist"
               width={400}
               height={500}
               loading="lazy"
-              className="aspect-[4/5] w-full rounded-md bg-surface object-cover"
+              className="aspect-[4/5] w-full rounded-md object-cover"
             />
-            <p className="mt-3 text-center text-xs uppercase tracking-wider text-muted">
-              Photo placeholder
-            </p>
           </div>
 
           <div>
@@ -56,13 +53,13 @@ export default function AboutPage() {
               <p>
                 Independent insurance agent specializing in trucking and
                 commercial lines. Works directly with 23+ carriers that write
-                commercial transportation — dry van, flatbed, reefer, hot
+                commercial transportation, dry van, flatbed, reefer, hot
                 shot, auto transport, hazmat, and box truck operations.
               </p>
               <p>
                 Focused on getting new authority truckers covered fast at fair
                 rates. Most quotes turn around the same business day. No
-                broker fees, no menus, no hand-offs to a back office — you
+                broker fees, no menus, no hand-offs to a back office, you
                 work with the same person from first call through renewal.
               </p>
             </div>
@@ -105,7 +102,7 @@ export default function AboutPage() {
                 Call us first. We walk you through what the carrier needs,
                 report the claim, and then follow up with the adjuster. If a
                 claim stalls, we escalate. We're not going to make a claim go
-                away that shouldn't — we're going to make sure the carrier
+                away that shouldn't, we're going to make sure the carrier
                 pays what the policy says they owe.
               </p>
             </div>
@@ -121,7 +118,7 @@ export default function AboutPage() {
                 Premium changed mid-term? Finance company math is wrong?
                 Auto-pay failed and the carrier is threatening cancellation?
                 Forward it to us. We figure out what actually happened, talk
-                to the billing rep, and fix it — usually the same day.
+                to the billing rep, and fix it, usually the same day.
               </p>
             </div>
 
@@ -148,7 +145,7 @@ export default function AboutPage() {
         <p>
           Vantage Point Risk Partners LLC is an independent insurance agency.{" "}
           <strong>{site.serviceArea}.</strong> We specialize in commercial
-          trucking insurance — primary liability, motor truck cargo, physical
+          trucking insurance, primary liability, motor truck cargo, physical
           damage, trailer interchange, occupational accident, and the rest of
           the policies that keep an owner-op on the road.
         </p>
@@ -163,12 +160,12 @@ export default function AboutPage() {
         <p>
           Trucking is its own world. The freight, the brokers, the FMCSA
           filings, the BMC-91, the COIs, the CSA scores, the lease-on
-          decision, the seasoning of an authority — generalist agents don't
+          decision, the seasoning of an authority, generalist agents don't
           know any of it. We do, because it's all we do.
         </p>
         <p>
           New authorities and single-truck owner operators are who we focus
-          on. They're the hardest accounts to place — most agencies don't
+          on. They're the hardest accounts to place, most agencies don't
           want them because the premium is small and the underwriting is hard.
           We built the agency around exactly those accounts.
         </p>
@@ -200,7 +197,7 @@ export default function AboutPage() {
         </p>
         <p>
           We write trucking insurance across the western and mountain states
-          and Texas. Most of our truckers run regional and OTR — we set up
+          and Texas. Most of our truckers run regional and OTR, we set up
           carriers in every state we cover.
         </p>
 
@@ -222,7 +219,7 @@ export default function AboutPage() {
           when you need a certificate, a change, or a claim.
         </p>
         <p>
-          Then we leave you alone to run your business. Until renewal — when
+          Then we leave you alone to run your business. Until renewal, when
           we re-shop again. That's the agency.
         </p>
       </article>

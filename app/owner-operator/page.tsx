@@ -6,7 +6,7 @@ import RelatedLinks from "@/components/RelatedLinks";
 import LazyVideo from "@/components/LazyVideo";
 
 export const metadata = {
-  title: "Trucking Insurance for Owner Operators — Shop 23 Carriers",
+  title: "Trucking Insurance for Owner Operators, Shop 23 Carriers",
   description:
     "Owner operator trucking insurance quoted across 23+ carriers. Coverage for dry van, flatbed, reefer, hot shot, and box truck. Same-day binding.",
 };
@@ -16,8 +16,8 @@ export default function OwnerOperatorPage() {
     <>
       <PageHero
         eyebrow="Owner operators"
-        title="Trucking Insurance for Owner Operators — Shop 23 Carriers, Get the Best Rate."
-        sub="One truck. Your authority. Your business. We build your insurance program the same way — around your freight, your routes, and your margins."
+        title="Trucking Insurance for Owner Operators, Shop 23 Carriers, Get the Best Rate."
+        sub="One truck. Your authority. Your business. We build your insurance program the same way, around your freight, your routes, and your margins."
       />
       <Breadcrumbs items={[{ label: "Owner Operator" }]} />
 
@@ -40,7 +40,7 @@ export default function OwnerOperatorPage() {
         <p>
           Protects against damage or injury you cause to others. Most brokers
           require $1M combined single limit. FMCSA minimum is $750K for general
-          freight. Carry the $1M — it's the difference between getting loads
+          freight. Carry the $1M, it's the difference between getting loads
           and not getting loads.
         </p>
 
@@ -68,7 +68,7 @@ export default function OwnerOperatorPage() {
 
         <h3>Non-trucking liability (bobtail)</h3>
         <p>
-          Covers you when you're driving the truck without dispatch — running
+          Covers you when you're driving the truck without dispatch, running
           personal errands, heading home. Low-cost coverage, usually under
           $50/month.
         </p>
@@ -147,7 +147,7 @@ export default function OwnerOperatorPage() {
         <h3>Flatbed / step deck</h3>
         <p>
           Slightly higher cargo rate because of load securement exposure. Make
-          sure your cargo policy covers tie-down/securement claims — some
+          sure your cargo policy covers tie-down/securement claims, some
           don't.
         </p>
 

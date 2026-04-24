@@ -4,7 +4,7 @@ import CTASection from "@/components/CTASection";
 import RelatedLinks from "@/components/RelatedLinks";
 
 export const metadata = {
-  title: "Vantage Point Risk Partners Reviews — What Truckers Say",
+  title: "Vantage Point Risk Partners Reviews, What Truckers Say",
   description:
     "Read trucker reviews of Vantage Point Risk Partners. Fast quotes, fair rates, real people. Here's what matters when reading insurance agent reviews.",
 };
@@ -13,32 +13,32 @@ const reviews = [
   {
     quote:
       "Got my authority in January and had no idea what I was doing. These guys quoted me in one morning, bound same day, and explained everything without making me feel stupid.",
-    author: "Marcus T. — Dry van owner-op, GA",
+    author: "Marcus T., Dry van owner-op, GA",
   },
   {
     quote:
       "Called three other agents before landing here. Every one of them ghosted me because I was a new authority. Vantage Point called me back in an hour.",
-    author: "Jessica L. — Hot shot, TX",
+    author: "Jessica L., Hot shot, TX",
   },
   {
     quote:
       "Renewal came up and my rate jumped 18%. They re-shopped it across their book and found me a carrier $240/month less with better cargo coverage. I didn't even ask.",
-    author: "Ramon D. — Reefer, CA",
+    author: "Ramon D., Reefer, CA",
   },
   {
     quote:
       "Broker needed a certificate in 30 minutes or I was going to lose the load. Richard got it out in 10.",
-    author: "Darnell W. — Flatbed, OH",
+    author: "Darnell W., Flatbed, OH",
   },
   {
     quote:
       "I lease onto a carrier and they told me I needed to figure out my own bobtail and occ-acc. Vantage Point handled it, explained it, and it was cheaper than I thought.",
-    author: "Tonya B. — Leased-on OO, IL",
+    author: "Tonya B., Leased-on OO, IL",
   },
   {
     quote:
-      "Not pushy. No BS. They told me when I didn't need a coverage I was asking about — which was the first time an agent saved me money instead of selling me up.",
-    author: "Kevin M. — Box truck / courier, FL",
+      "Not pushy. No BS. They told me when I didn't need a coverage I was asking about, which was the first time an agent saved me money instead of selling me up.",
+    author: "Kevin M., Box truck / courier, FL",
   },
 ];
 
@@ -47,8 +47,8 @@ export default function ReviewsPage() {
     <>
       <PageHero
         eyebrow="Trucker reviews"
-        title="Vantage Point Risk Partners Reviews — What Truckers Say."
-        sub="Real feedback from new authorities and owner operators we've worked with. We also explain what to look for when reading any insurance agent's reviews — because not all review sections tell the full story."
+        title="Vantage Point Risk Partners Reviews, What Truckers Say."
+        sub="Real feedback from new authorities and owner operators we've worked with. We also explain what to look for when reading any insurance agent's reviews, because not all review sections tell the full story."
       />
       <Breadcrumbs items={[{ label: "Reviews" }]} />
 
@@ -60,7 +60,7 @@ export default function ReviewsPage() {
                 Google reviews
               </p>
               <p className="mt-1 text-2xl font-bold text-foreground">
-                ★★★★★ — Verified by Google
+                ★★★★★, Verified by Google
               </p>
             </div>
             <a
@@ -73,7 +73,7 @@ export default function ReviewsPage() {
             </a>
           </div>
           <p className="mt-4 text-sm text-muted">
-            Widget placeholder — live Google reviews feed integrated on
+            Widget placeholder, live Google reviews feed integrated on
             production via the Google Places API / Trustpilot embed.
           </p>
         </div>
@@ -94,7 +94,7 @@ export default function ReviewsPage() {
                 "{r.quote}"
               </blockquote>
               <figcaption className="mt-4 text-sm font-semibold text-foreground">
-                — {r.author}
+               , {r.author}
               </figcaption>
             </figure>
           ))}
@@ -104,7 +104,7 @@ export default function ReviewsPage() {
       <article className="container-narrow prose-trucking">
         <h2>What to look for when reading insurance agent reviews</h2>
         <p>
-          Reviews are useful — but only if you know what to look for. Here's
+          Reviews are useful, but only if you know what to look for. Here's
           how to actually read reviews of a trucking insurance agent.
         </p>
 
@@ -140,7 +140,7 @@ export default function ReviewsPage() {
         <h3>Trust phone call reviews over text reviews</h3>
         <p>
           A trucker leaves a 5-star review after a real phone call that
-          solved their problem. A review that reads like ad copy — didn't
+          solved their problem. A review that reads like ad copy, didn't
           come from a trucker. Review language matters.
         </p>
 

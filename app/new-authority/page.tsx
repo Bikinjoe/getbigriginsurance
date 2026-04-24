@@ -32,7 +32,7 @@ export default function NewAuthorityPage() {
       <PageHero
         eyebrow="New MC/DOT holders"
         title="New Trucking Authority? Here's Exactly What Insurance You Need."
-        sub="You got the authority. Now you need coverage that satisfies FMCSA, brokers, and your lender — at a rate you can actually pay. Here's the plain-English version."
+        sub="You got the authority. Now you need coverage that satisfies FMCSA, brokers, and your lender, at a rate you can actually pay. Here's the plain-English version."
       />
       <Breadcrumbs items={[{ label: "New Authority" }]} />
 
@@ -73,8 +73,8 @@ export default function NewAuthorityPage() {
           their system. Plan on these numbers:
         </p>
         <ul>
-          <li><strong>$1,000,000 in primary liability</strong> — this is the universal broker minimum</li>
-          <li><strong>$100,000 in cargo coverage</strong> — standard for dry van, flatbed, reefer</li>
+          <li><strong>$1,000,000 in primary liability</strong>, this is the universal broker minimum</li>
+          <li><strong>$100,000 in cargo coverage</strong>, standard for dry van, flatbed, reefer</li>
           <li>Some shippers (auto transport, high-value freight) require $250,000+ cargo</li>
           <li>Some brokers require a trailer interchange or non-owned trailer endorsement</li>
           <li>A broker wants to be named as a certificate holder</li>
@@ -118,7 +118,7 @@ export default function NewAuthorityPage() {
           <li><strong>Same day:</strong> We shop your account across our 23+ carriers.</li>
           <li><strong>Afternoon:</strong> You review quotes on the phone and choose one.</li>
           <li><strong>Bound that day:</strong> We issue your certificate of insurance and file with FMCSA.</li>
-          <li><strong>Next day:</strong> FMCSA updates your authority to "active" — you can legally dispatch.</li>
+          <li><strong>Next day:</strong> FMCSA updates your authority to "active", you can legally dispatch.</li>
         </ol>
 
         <h2>What to have ready before you call</h2>
@@ -138,7 +138,7 @@ export default function NewAuthorityPage() {
         <h2>Why specialists quote new authorities better</h2>
         <p>
           Not every insurance carrier writes new authorities. Some won't touch
-          them. Others will — but only if their underwriter knows the
+          them. Others will, but only if their underwriter knows the
           trucking book inside and out. We know which of our 23+ carriers
           write new MC numbers, at what rates, and what each one values
           (clean MVR, verifiable driving history, specific commodities).

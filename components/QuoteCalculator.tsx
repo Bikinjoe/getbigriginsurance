@@ -80,7 +80,7 @@ function calculate(params: {
     lo *= 1.4;
     hi *= 1.4;
     drivers.push(
-      "new authority status (+40%) — carriers price in the unknown for the first 12 months"
+      "new authority status (+40%), carriers price in the unknown for the first 12 months"
     );
     levers.push(
       "after 12 months of clean operation, most carriers rerate and this premium comes off"
@@ -96,11 +96,11 @@ function calculate(params: {
   if (params.radius === "local") {
     lo *= 0.9;
     hi *= 0.9;
-    drivers.push("local radius (-10%) — under 100 miles is the cheapest zone");
+    drivers.push("local radius (-10%), under 100 miles is the cheapest zone");
   } else if (params.radius === "longhaul") {
     lo *= 1.2;
     hi *= 1.2;
-    drivers.push("long haul (+20%) — more miles, more exposure");
+    drivers.push("long haul (+20%), more miles, more exposure");
     levers.push(
       "tightening to regional (100–500 mi) typically drops the premium ~15%"
     );
@@ -110,11 +110,11 @@ function calculate(params: {
   if (params.commodity === "hazmat") {
     lo *= 1.35;
     hi *= 1.35;
-    drivers.push("hazmat commodity (+35%) — higher liability minimums required");
+    drivers.push("hazmat commodity (+35%), higher liability minimums required");
   } else if (params.commodity === "household") {
     lo *= 1.15;
     hi *= 1.15;
-    drivers.push("household goods (+15%) — high-claim commodity");
+    drivers.push("household goods (+15%), high-claim commodity");
   } else if (params.commodity === "produce" && params.truck !== "reefer") {
     lo *= 1.05;
     hi *= 1.05;
@@ -125,7 +125,7 @@ function calculate(params: {
     lo += 3000;
     hi += 5000;
     drivers.push(
-      "truck value over $150K (+$3K–$5K) — higher physical damage premium"
+      "truck value over $150K (+$3K–$5K), higher physical damage premium"
     );
     levers.push(
       "raising the physical damage deductible ($2,500 → $5,000) can save several hundred a year"
@@ -144,7 +144,7 @@ function calculate(params: {
       "major violation or at-fault accident in last 3 years (+30%)"
     );
     levers.push(
-      "the violation rolls off at 3 years — rate improves substantially then"
+      "the violation rolls off at 3 years, rate improves substantially then"
     );
   } else if (params.driver === "minor") {
     lo *= 1.08;
@@ -370,7 +370,7 @@ export default function QuoteCalculator() {
             {estimate.drivers.length > 0 ? (
               estimate.drivers.map((d, i) => <li key={i}>{d}</li>)
             ) : (
-              <li>no adjustments — you're at the base profile</li>
+              <li>no adjustments, you're at the base profile</li>
             )}
           </ul>
         </div>
@@ -388,7 +388,7 @@ export default function QuoteCalculator() {
 
         <div className="rounded-lg border border-dashed border-border bg-surface p-4 text-xs text-muted">
           This is an estimate only. Your actual rate depends on full
-          underwriting review — MVR, PSP, prior loss history, radius-of-operation
+          underwriting review, MVR, PSP, prior loss history, radius-of-operation
           detail, and carrier-specific appetite.
         </div>
 

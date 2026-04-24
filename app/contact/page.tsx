@@ -5,7 +5,7 @@ import RelatedLinks from "@/components/RelatedLinks";
 import { site } from "@/lib/site";
 
 export const metadata = {
-  title: "Contact — Talk to a Trucking Insurance Specialist",
+  title: "Contact, Talk to a Trucking Insurance Specialist",
   description:
     "Call or text 541-681-8793 or email richard@vantagepointrisk.com. Real people answering trucking insurance questions for owner operators and new authorities.",
 };

@@ -5,7 +5,7 @@ import { useEffect, useRef } from "react";
 const SCRIPT_SRC = "https://app.sembley.com/widgets/embedded-intake.js";
 const ASSIGN_TO_USER = "2918";
 
-// Generous fallback height per spec — used until/unless the Sembley iframe
+// Generous fallback height per spec, used until/unless the Sembley iframe
 // posts back its real content height.
 const FALLBACK_HEIGHT = "1200px";
 

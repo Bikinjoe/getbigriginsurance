@@ -4,7 +4,7 @@ import Breadcrumbs from "@/components/Breadcrumbs";
 import { getAllPosts } from "@/lib/blog";
 
 export const metadata = {
-  title: "Trucking Insurance Resources — Guides, Tips, and Industry Updates",
+  title: "Trucking Insurance Resources, Guides, Tips, and Industry Updates",
   description:
     "Trucking insurance blog for new authorities and owner operators. Coverage explainers, FMCSA updates, owner-op business tips. New posts Mon/Wed/Fri.",
 };
@@ -15,7 +15,7 @@ export default function BlogIndex() {
     <>
       <PageHero
         eyebrow="Blog"
-        title="Trucking Insurance Resources — Guides, Tips, and Industry Updates."
+        title="Trucking Insurance Resources, Guides, Tips, and Industry Updates."
         sub="Plain-English content for new authorities and owner operators. New posts every Monday, Wednesday, and Friday."
         showCTAs={false}
       />
@@ -24,7 +24,7 @@ export default function BlogIndex() {
       <section className="container-narrow py-10">
         {posts.length === 0 ? (
           <p className="text-base text-muted">
-            No posts yet. The first ones will land soon — check back Monday.
+            No posts yet. The first ones will land soon, check back Monday.
           </p>
         ) : (
           <div className="grid gap-6 md:grid-cols-2">

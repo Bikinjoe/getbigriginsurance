@@ -2,9 +2,9 @@ import Link from "next/link";
 import SembleyForm from "@/components/SembleyForm";
 
 export const metadata = {
-  title: "Thank You — We Got Your Info",
+  title: "Thank You, We Got Your Info",
   description:
-    "Thanks for submitting your trucking insurance quote request. Save time by completing the full intake below — we can get started right away.",
+    "Thanks for submitting your trucking insurance quote request. Save time by completing the full intake below, we can get started right away.",
   robots: { index: false, follow: false },
 };
 

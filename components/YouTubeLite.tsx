@@ -8,7 +8,7 @@ type Props = {
 };
 
 // Lazy-loaded YouTube embed.
-// On first paint we render a static thumbnail with a play overlay — no
+// On first paint we render a static thumbnail with a play overlay, no
 // YouTube JS, no iframe, no third-party requests. The iframe (and all of
 // YouTube's tracking + JS) only loads after the visitor clicks play.
 // Wrapped in next/dynamic at the page boundary so the component code

@@ -32,7 +32,7 @@ export default function BestPage() {
         <h2>The four criteria that matter</h2>
         <ol>
           <li><strong>Right coverage.</strong> The policy actually covers what you do. Cargo limits that match your freight. Trailer interchange if you drop-and-hook. Reefer breakdown if you haul reefer. Missing any of these is a bigger problem than paying $50 more a month.</li>
-          <li><strong>Fair price.</strong> Competitive for your profile — not the cheapest by a long shot (that's often a sign of bad coverage), and not the most expensive.</li>
+          <li><strong>Fair price.</strong> Competitive for your profile, not the cheapest by a long shot (that's often a sign of bad coverage), and not the most expensive.</li>
           <li><strong>Someone answers the phone.</strong> When a broker needs a COI in 20 minutes, or you're on the side of the road after a fender-bender, you need a human being on the line. This is where direct carriers often fail owner-ops.</li>
           <li><strong>Fast.</strong> Quote in 24 hours. Bind same day. Claims paid on schedule. Endorsements processed in a week. Slow carriers cost you loads and sleep.</li>
         </ol>
@@ -64,13 +64,13 @@ export default function BestPage() {
         <h2>What "best" is not</h2>
         <ul>
           <li><strong>Not the cheapest.</strong> The cheapest quote is often missing coverage or will get repriced after underwriting.</li>
-          <li><strong>Not the biggest brand.</strong> Nationally famous carriers aren't always the best trucking markets. Trucking is specialty underwriting — some smaller specialty carriers do it much better.</li>
+          <li><strong>Not the biggest brand.</strong> Nationally famous carriers aren't always the best trucking markets. Trucking is specialty underwriting, some smaller specialty carriers do it much better.</li>
           <li><strong>Not just what your buddy uses.</strong> Your buddy might haul dry van regional on a 10-year-old truck. You might haul reefer OTR on a new truck. Different answers.</li>
         </ul>
 
         <h2>Red flags when comparing</h2>
         <ul>
-          <li>Quote is dramatically lower than the rest — check what coverage they cut</li>
+          <li>Quote is dramatically lower than the rest, check what coverage they cut</li>
           <li>Agent can't explain why carrier X was picked over carrier Y</li>
           <li>Requires you to pay a broker fee on top of the premium (common scam)</li>
           <li>Can't produce a COI in a reasonable timeframe</li>
@@ -84,7 +84,7 @@ export default function BestPage() {
           <li>Has 15-20+ trucking carrier appointments</li>
           <li>Asks detailed questions about your operation, not just name/DOT</li>
           <li>Explains the quote line by line</li>
-          <li>Gives you options — not just one take-it-or-leave-it price</li>
+          <li>Gives you options, not just one take-it-or-leave-it price</li>
           <li>Will tell you if you're better off leasing on than running your own authority</li>
           <li>Has a real phone number and answers it</li>
         </ul>
@@ -92,7 +92,7 @@ export default function BestPage() {
         <h2>The carrier isn't the whole story</h2>
         <p>
           The carrier writes the policy and pays the claim. The agent handles
-          everything else — getting you bound, issuing COIs, adding trucks or
+          everything else, getting you bound, issuing COIs, adding trucks or
           drivers, re-marketing at renewal, advocating if there's a coverage
           question. A great carrier paired with a bad agent is still a bad
           experience.

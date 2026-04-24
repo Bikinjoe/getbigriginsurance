@@ -6,7 +6,7 @@ import JsonLd from "@/components/JsonLd";
 import QuoteCalculator from "@/components/QuoteCalculator";
 
 export const metadata = {
-  title: "Trucking Insurance Cost Calculator — Estimate Your Annual Premium",
+  title: "Trucking Insurance Cost Calculator, Estimate Your Annual Premium",
   description:
     "Use our interactive trucking insurance calculator to estimate annual premium for owner operators. Select truck type, radius, commodity, driving record, and more.",
 };
@@ -86,7 +86,7 @@ export default function CalculatorPage() {
         <p>
           This is an estimate, not a binding quote. Underwriters pull your
           MVR and PSP when they quote, and they weight things the calculator
-          can't — prior at-fault claims, specific states of domicile,
+          can't, prior at-fault claims, specific states of domicile,
           carrier appetite that changes by month. For a real number, call
           or text us.
         </p>
@@ -100,7 +100,7 @@ export default function CalculatorPage() {
           <li><strong>Truck value:</strong> over $150K adds a flat premium for the physical damage exposure.</li>
         </ul>
 
-        <h2>After the calculator — get the real number</h2>
+        <h2>After the calculator, get the real number</h2>
         <p>
           The fastest way to get an actual quote is to tell us about your
           operation and let us shop it across our 23+ carriers. Most new
@@ -112,7 +112,7 @@ export default function CalculatorPage() {
 
       <CTASection
         heading="Want the real number?"
-        sub="We'll turn an actual quote around — usually the same business day."
+        sub="We'll turn an actual quote around, usually the same business day."
       />
 
       <RelatedLinks

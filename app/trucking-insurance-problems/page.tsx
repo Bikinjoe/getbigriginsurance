@@ -8,7 +8,7 @@ import JsonLd from "@/components/JsonLd";
 export const metadata = {
   title: "Problems With Trucking Insurance (And How We Fix Them)",
   description:
-    "The top complaints truckers have with insurance agents — agents who don't know trucking, rate spikes, slow COIs, unexpected cancellations, new authority declines, and claim ghosting. Here's how we handle each one.",
+    "The top complaints truckers have with insurance agents, agents who don't know trucking, rate spikes, slow COIs, unexpected cancellations, new authority declines, and claim ghosting. Here's how we handle each one.",
 };
 
 type Problem = {
@@ -26,14 +26,14 @@ const problems: Problem[] = [
     why:
       "Most insurance agents are generalists. They write home, auto, small business, and dabble in commercial trucking. Trucking is less than 10% of their book, so they don't build real expertise. They submit your account to two or three carriers they happen to have relationships with and bring back whatever sticks.",
     how:
-      "We only write trucking. It's the entire business, not a side department. We work with 23+ carriers that specifically underwrite commercial trucking — dry van, flatbed, reefer, hot shot, auto transport, hazmat, box truck. We know the filings. We know what brokers require. We know which carriers will decline your profile before we waste your time.",
+      "We only write trucking. It's the entire business, not a side department. We work with 23+ carriers that specifically underwrite commercial trucking, dry van, flatbed, reefer, hot shot, auto transport, hazmat, box truck. We know the filings. We know what brokers require. We know which carriers will decline your profile before we waste your time.",
   },
   {
     title: "Rates that spike at renewal with no explanation",
     what:
       "Your policy auto-renewed and your premium jumped 18%. No claims. No tickets. No changes to your operation. The agent can't tell you why. You pay the new rate because you don't have time to reshop.",
     why:
-      "Insurance carriers file rate changes with state insurance departments. When market-wide losses push a carrier's book into unprofitable territory, they push rates up across the board at renewal. A generalist agent doesn't re-market you — they just let the policy auto-renew and hope you don't notice. It's easier for them.",
+      "Insurance carriers file rate changes with state insurance departments. When market-wide losses push a carrier's book into unprofitable territory, they push rates up across the board at renewal. A generalist agent doesn't re-market you, they just let the policy auto-renew and hope you don't notice. It's easier for them.",
     how:
       "We re-market every account at every renewal. Automatic. Before your renewal date, we pull your profile into our quoting system, submit to carriers that fit your profile, and compare the new numbers against your current policy. If your current carrier is still the best option, we tell you. If there's a better option, we move you. Either way, you get a clear explanation.",
   },
@@ -42,18 +42,18 @@ const problems: Problem[] = [
     what:
       "A broker needs a COI with their name listed as a certificate holder. You need it in the next 30 minutes or you lose the load. You email your agent. You hear nothing. Three hours later you call and leave a voicemail. By the end of the day the load is gone.",
     why:
-      "COIs take less than 10 minutes to generate for anyone actually at the desk. The bottleneck is always the agency's process — COIs queue behind whatever else is in the inbox, and a non-specialist agency doesn't prioritize transportation clients the same way a trucking-focused shop does.",
+      "COIs take less than 10 minutes to generate for anyone actually at the desk. The bottleneck is always the agency's process, COIs queue behind whatever else is in the inbox, and a non-specialist agency doesn't prioritize transportation clients the same way a trucking-focused shop does.",
     how:
-      "We answer the phone and we turn COIs around the same hour during business hours. If a broker needs a certificate for a load, we'd rather drop what we're doing and cut the cert than let you lose the freight. That's the expectation we set with every client. If you can't reach us during business hours, something's wrong — and we'd want to know about it.",
+      "We answer the phone and we turn COIs around the same hour during business hours. If a broker needs a certificate for a load, we'd rather drop what we're doing and cut the cert than let you lose the freight. That's the expectation we set with every client. If you can't reach us during business hours, something's wrong, and we'd want to know about it.",
   },
   {
     title: "Carriers that cancel policies unexpectedly",
     what:
       "You get a certified letter saying your policy is cancelled effective in 10 days. There was one late payment four months ago. Maybe a claim that was smaller than the deductible. Maybe the underwriter reviewed your CSA score and decided to non-renew you. Whatever it is, now you're scrambling.",
     why:
-      "Some carriers are twitchy. They'll cancel or non-renew for things other carriers would overlook — one late payment, a small claim, a safety rating change, or even a commodity audit that comes back slightly different than what was on the application. A generalist agent may not know which carriers are cancellation-happy, so they put new clients into those carriers and let the cycle repeat.",
+      "Some carriers are twitchy. They'll cancel or non-renew for things other carriers would overlook, one late payment, a small claim, a safety rating change, or even a commodity audit that comes back slightly different than what was on the application. A generalist agent may not know which carriers are cancellation-happy, so they put new clients into those carriers and let the cycle repeat.",
     how:
-      "We know which carriers are stable and which ones are trigger-happy. When we place new business, we weigh carrier stability heavily — a slightly cheaper rate isn't worth it if the carrier is going to non-renew you in 9 months. If a cancellation notice does arrive, we see it before you do (we're on the notification list) and we start re-marketing immediately, so there's no lapse.",
+      "We know which carriers are stable and which ones are trigger-happy. When we place new business, we weigh carrier stability heavily, a slightly cheaper rate isn't worth it if the carrier is going to non-renew you in 9 months. If a cancellation notice does arrive, we see it before you do (we're on the notification list) and we start re-marketing immediately, so there's no lapse.",
   },
   {
     title: "Being turned down as a new authority",
@@ -62,14 +62,14 @@ const problems: Problem[] = [
     why:
       "New authority accounts are hard. Some carriers won't write them at all. Others will but price them punitively. Small-fleet and single-truck accounts have higher per-unit premiums, and the commission is low, so many agencies don't want to bother with them.",
     how:
-      "New authorities are our specialty. It's the account type we built the agency around. We know exactly which of our 23+ carriers actively write new MC numbers and at what price tiers. We can usually get a new authority bound the same day with $1M primary liability, cargo, and physical damage in the $8,000 to $18,000 range — not $30,000. We are not going to turn you away because you're new.",
+      "New authorities are our specialty. It's the account type we built the agency around. We know exactly which of our 23+ carriers actively write new MC numbers and at what price tiers. We can usually get a new authority bound the same day with $1M primary liability, cargo, and physical damage in the $8,000 to $18,000 range, not $30,000. We are not going to turn you away because you're new.",
   },
   {
     title: "Poor communication when there's a claim",
     what:
       "You had an accident. You reported the claim to the carrier. Now three weeks have passed and nobody has called. The adjuster doesn't return messages. Your truck is sitting at a body shop waiting for an estimate approval. You're losing revenue every day the truck isn't moving.",
     why:
-      "Claims adjusters carry heavy caseloads. The ones who handle trucking claims often manage 150+ files at a time. Your claim isn't a priority unless someone is pushing on it. A captive agent or direct carrier rep has no incentive to push — they work for the carrier. A generalist agent may not have the trucking expertise to push effectively.",
+      "Claims adjusters carry heavy caseloads. The ones who handle trucking claims often manage 150+ files at a time. Your claim isn't a priority unless someone is pushing on it. A captive agent or direct carrier rep has no incentive to push, they work for the carrier. A generalist agent may not have the trucking expertise to push effectively.",
     how:
       "We advocate. When a claim is stuck, we call the adjuster, their supervisor, and the branch manager if needed. We know what a reasonable timeline looks like for every claim type and we push when carriers miss it. We're not going to make a claim go away that shouldn't, but we will absolutely make sure it moves and gets paid per the policy.",
   },
@@ -95,7 +95,7 @@ export default function ProblemsPage() {
       <PageHero
         eyebrow="The honest list"
         title="Problems With Trucking Insurance (And How We Fix Them)."
-        sub="Here are the six complaints we hear most often from truckers about their previous agents — what's actually going wrong, why it happens, and how we handle each one differently."
+        sub="Here are the six complaints we hear most often from truckers about their previous agents, what's actually going wrong, why it happens, and how we handle each one differently."
       />
       <Breadcrumbs items={[{ label: "Problems We Fix" }]} />
 
@@ -103,11 +103,11 @@ export default function ProblemsPage() {
         <p>
           This is the honest version of what's broken about trucking
           insurance. Every complaint below comes from truckers we've talked
-          to — not hypothetical scenarios. If you recognize yourself in any
+          to, not hypothetical scenarios. If you recognize yourself in any
           of these, you already know we're writing about the right problems.
         </p>
         <p>
-          We can't promise perfect — nobody can. We can promise we know the
+          We can't promise perfect, nobody can. We can promise we know the
           problems are real, we've built the agency to handle them better
           than the last agent, and we answer the phone when you need us.
         </p>
@@ -144,10 +144,10 @@ export default function ProblemsPage() {
           advocate in claims, and re-market you at renewal. That's the job.
         </p>
         <p>
-          If your current agent is hitting all of that, stay with them —
+          If your current agent is hitting all of that, stay with them ,
           they're doing right by you. If they're not, it's probably time to
           look at other options. You don't have to move your policy to get a
-          quote and a second opinion from us — we'll tell you the truth
+          quote and a second opinion from us, we'll tell you the truth
           about where you stand.
         </p>
 

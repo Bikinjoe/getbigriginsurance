@@ -6,7 +6,7 @@ import JsonLd from "@/components/JsonLd";
 import { faqs } from "@/lib/faqs";
 
 export const metadata = {
-  title: "Trucking Insurance FAQ — Every Question Answered",
+  title: "Trucking Insurance FAQ, Every Question Answered",
   description:
     "Answers to 25 common trucking insurance questions for new authorities and owner operators. Coverage, cost, FMCSA requirements, claims, and more.",
 };
@@ -31,7 +31,7 @@ export default function FAQPage() {
 
       <PageHero
         eyebrow="25 questions, real answers"
-        title="Trucking Insurance FAQ — Every Question Answered."
+        title="Trucking Insurance FAQ, Every Question Answered."
         sub="If you've Googled trucking insurance lately, you've already seen the surface-level answers. This page gives you the full ones."
       />
       <Breadcrumbs items={[{ label: "FAQ" }]} />
@@ -91,7 +91,7 @@ export default function FAQPage() {
 
       <CTASection
         heading="Still have questions?"
-        sub="Call us or start a quote. We answer the phone — no menus, no AI."
+        sub="Call us or start a quote. We answer the phone, no menus, no AI."
       />
     </>
   );

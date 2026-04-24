@@ -60,7 +60,7 @@ export default function CostPage() {
               priceCurrency: "USD",
               price: "5000-22000",
               description:
-                "Annual trucking insurance premium range for owner operators — primary liability and physical damage combined. Actual rate depends on truck type, commodity, radius, driver record, and underwriting review.",
+                "Annual trucking insurance premium range for owner operators, primary liability and physical damage combined. Actual rate depends on truck type, commodity, radius, driver record, and underwriting review.",
             },
           },
         }}
@@ -68,7 +68,7 @@ export default function CostPage() {
       <PageHero
         eyebrow="Big question, plain answer"
         title="How Much Does Trucking Insurance Cost? Real Numbers for Owner Operators."
-        sub="$8,000 to $18,000 per year for a new authority owner-op is the realistic range. Here's exactly what drives the number — and how to get yours toward the bottom of that range."
+        sub="$8,000 to $18,000 per year for a new authority owner-op is the realistic range. Here's exactly what drives the number, and how to get yours toward the bottom of that range."
       />
       <Breadcrumbs items={[{ label: "Cost" }]} />
 
@@ -130,9 +130,9 @@ export default function CostPage() {
         <h2>What drives the cost up</h2>
         <ul>
           <li>High-value truck (newer Peterbilt or Kenworth glider stretches the stated value)</li>
-          <li>Longer radius — 48 states vs. regional vs. local</li>
+          <li>Longer radius, 48 states vs. regional vs. local</li>
           <li>Tougher commodities: hazmat, auto transport, high-value electronics, household goods</li>
-          <li>Tickets on the MVR — especially speeding 15+ over, reckless, DUI</li>
+          <li>Tickets on the MVR, especially speeding 15+ over, reckless, DUI</li>
           <li>Previous accidents or claims on your DOT</li>
           <li>Younger drivers (under 25) or low CDL experience (under 2 years)</li>
           <li>Operating in specific states with higher loss ratios</li>
@@ -140,7 +140,7 @@ export default function CostPage() {
 
         <h2>What drives the cost down</h2>
         <ul>
-          <li>Clean MVR — no tickets in the last 3 years</li>
+          <li>Clean MVR, no tickets in the last 3 years</li>
           <li>5+ years CDL experience</li>
           <li>Regional or local operation (300-500 mile radius)</li>
           <li>Standard dry van or flatbed commodity</li>
@@ -167,7 +167,7 @@ export default function CostPage() {
           pays 20 to 40 percent less than a brand new authority. That's the
           reward for getting through year one without claims. It's also why
           we fight hard to get you in a carrier that will stick with you long
-          term — switching every year makes you look less seasoned on paper.
+          term, switching every year makes you look less seasoned on paper.
         </p>
 
         <h2>Stated value vs. actual cash value</h2>
@@ -201,7 +201,7 @@ export default function CostPage() {
           especially for seasoned authorities.
         </p>
         <p>
-          If you can pay annual or semi-annual, you save the finance charge —
+          If you can pay annual or semi-annual, you save the finance charge ,
           usually 3-5% of the premium.
         </p>
 
@@ -293,7 +293,7 @@ export default function CostPage() {
 
       <CTASection
         heading="Get a real quote."
-        sub="We'll shop 23+ carriers and call you with actual numbers — usually the same day."
+        sub="We'll shop 23+ carriers and call you with actual numbers, usually the same day."
       />
 
       <RelatedLinks

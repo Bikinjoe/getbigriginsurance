@@ -26,8 +26,8 @@ export default function WhatInsurancePage() {
           FMCSA requires primary liability insurance (minimum $750,000 for
           general freight). Most brokers require $1,000,000 before they'll
           give you loads. Beyond that, you need cargo coverage and physical
-          damage on your truck. Those three pieces — liability, cargo,
-          physical damage — are the foundation of a new authority insurance
+          damage on your truck. Those three pieces, liability, cargo,
+          physical damage, are the foundation of a new authority insurance
           program.
         </p>
         <p>
@@ -105,7 +105,7 @@ export default function WhatInsurancePage() {
 
         <h2>Non-trucking liability (bobtail)</h2>
         <p>
-          Covers you when you're operating the truck without dispatch —
+          Covers you when you're operating the truck without dispatch ,
           driving it home, running a personal errand. Inexpensive coverage,
           required if you're leased onto a motor carrier.
         </p>
@@ -115,7 +115,7 @@ export default function WhatInsurancePage() {
           If you're an owner-op leased onto a carrier, you generally need
           occupational accident coverage. If you run your own authority and
           employ drivers, you generally need workers' comp. Rules vary by
-          state — some states let you exempt yourself as an owner, others
+          state, some states let you exempt yourself as an owner, others
           don't.
         </p>
 
@@ -131,9 +131,9 @@ export default function WhatInsurancePage() {
           Required to legally operate and find loads:
         </p>
         <ol>
-          <li>Primary liability — $1M</li>
-          <li>Cargo — $100K</li>
-          <li>Physical damage — your truck's value (if financed, your lender requires it)</li>
+          <li>Primary liability, $1M</li>
+          <li>Cargo, $100K</li>
+          <li>Physical damage, your truck's value (if financed, your lender requires it)</li>
         </ol>
         <p>
           Strongly recommended for a complete program:
@@ -166,7 +166,7 @@ export default function WhatInsurancePage() {
         <h3>Do I really need cargo coverage?</h3>
         <p>
           If you want to haul loads, yes. Every broker and most shippers
-          require it. It's also what pays when freight damage happens — and
+          require it. It's also what pays when freight damage happens, and
           it happens more than you'd think.
         </p>
 

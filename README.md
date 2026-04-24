@@ -1,6 +1,6 @@
 # getbigriginsurance.com
 
-Next.js 14 (App Router) marketing site for **GetBigRigInsurance** — the trucking insurance brand of Vantage Point Risk Partners LLC, focused on new authority truckers and owner operators.
+Next.js 14 (App Router) marketing site for **GetBigRigInsurance** , the trucking insurance brand of Vantage Point Risk Partners LLC, focused on new authority truckers and owner operators.
 
 - Phone: Call or text 541-681-8793
 - Email: richard@vantagepointrisk.com
@@ -17,7 +17,7 @@ Next.js 14 (App Router) marketing site for **GetBigRigInsurance** — the trucki
 
 ## Pages (13)
 
-1. `/` — Homepage
+1. `/` , Homepage
 2. `/new-authority`
 3. `/owner-operator`
 4. `/how-much-does-trucking-insurance-cost`
