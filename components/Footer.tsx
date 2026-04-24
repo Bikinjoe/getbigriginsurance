@@ -51,7 +51,7 @@ export default function Footer() {
             <ul className="mt-3 space-y-2 text-sm">
               <li>
                 <a href={site.phoneHref} className="font-semibold text-white hover:text-flame">
-                  {site.phone}
+                  {site.phoneCTA}
                 </a>
               </li>
               <li>
@@ -59,7 +59,7 @@ export default function Footer() {
                   {site.email}
                 </a>
               </li>
-              <li>{site.city}, {site.state}</li>
+              <li>{site.serviceArea}</li>
               <li><Link href="/contact" className="hover:text-flame">Contact</Link></li>
               <li><Link href="/get-a-quote" className="hover:text-flame">Get a Quote</Link></li>
             </ul>
@@ -76,6 +76,16 @@ export default function Footer() {
             Sister sites:{" "}
             <a href="https://vantagepointrisk.com" className="hover:text-flame">vantagepointrisk.com</a>{" "}·{" "}
             <a href="https://truckpolicy.com" className="hover:text-flame">truckpolicy.com</a>
+          </p>
+          <p className="mt-3 text-mist">
+            <a
+              href={site.parentSiteUrl}
+              className="font-semibold text-flame hover:underline"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              Powered by Vantage Point Risk Partners — your trucking insurance agency
+            </a>
           </p>
         </div>
       </div>

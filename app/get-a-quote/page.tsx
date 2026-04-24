@@ -1,14 +1,14 @@
-import Link from "next/link";
-import PageHero from "@/components/PageHero";
 import Breadcrumbs from "@/components/Breadcrumbs";
+import PageHero from "@/components/PageHero";
 import JsonLd from "@/components/JsonLd";
 import RelatedLinks from "@/components/RelatedLinks";
+import SembleyTwoStep from "@/components/SembleyTwoStep";
 import { site } from "@/lib/site";
 
 export const metadata = {
   title: "Get Your Trucking Insurance Quote — Takes 5 Minutes",
   description:
-    "Start your trucking insurance quote. We shop 23+ carriers and call you with real options the same day. Or call 541-681-8793.",
+    "Start your trucking insurance quote. We shop 23+ carriers and call you with real options the same day. Or Call or text 541-681-8793.",
 };
 
 const checklist = [
@@ -31,8 +31,8 @@ export default function QuotePage() {
           "@type": "HowTo",
           name: "How to get a trucking insurance quote",
           step: [
-            { "@type": "HowToStep", name: "Gather your info", text: "DOT, MC, VIN, driver info, and operation details." },
-            { "@type": "HowToStep", name: "Submit", text: "Use the online form or call 541-681-8793." },
+            { "@type": "HowToStep", name: "Quick intake", text: "Fill out the 60-second quick form with your basics." },
+            { "@type": "HowToStep", name: "Full quote form", text: "Continue to the full intake form with your operation details." },
             { "@type": "HowToStep", name: "We shop carriers", text: "We submit to relevant carriers from our 23+ panel." },
             { "@type": "HowToStep", name: "Review and bind", text: "Review options by phone, pick one, and we bind same day." },
           ],
@@ -41,108 +41,73 @@ export default function QuotePage() {
       <PageHero
         eyebrow="5 minutes, real numbers"
         title="Get Your Trucking Insurance Quote — Takes 5 Minutes."
-        sub="Start your quote online or call 541-681-8793. Most new authorities get real numbers back the same day."
+        sub="Start your quote online or Call or text 541-681-8793. Most new authorities get real numbers back the same day."
         showCTAs={false}
       />
       <Breadcrumbs items={[{ label: "Get a Quote" }]} />
 
       <section className="container-narrow py-10">
-        <div className="grid gap-8 lg:grid-cols-2">
+        <div className="grid gap-10 lg:grid-cols-[minmax(0,1fr)_320px]">
           <div>
             <h2 className="text-2xl font-bold text-ink sm:text-3xl">
-              Two ways to start
+              Quick-start quote
             </h2>
-            <p className="mt-3 text-base text-steel sm:text-lg">
-              Pick whichever is faster for you. Both go to the same person.
-            </p>
+            <div className="mt-6">
+              <SembleyTwoStep />
+            </div>
 
-            <div className="mt-6 space-y-4">
-              <div className="rounded-lg border border-ink/10 bg-white p-5">
-                <p className="text-sm font-semibold uppercase tracking-wider text-flame">
-                  Option 1 — Fastest
-                </p>
-                <h3 className="mt-1 text-xl font-bold text-ink">Call us</h3>
-                <p className="mt-2 text-base text-steel">
-                  Talk to a real person. We can usually start a quote on the
-                  first call. Have your DOT number and truck info ready.
-                </p>
-                <a href={site.phoneHref} className="btn-primary mt-4">
-                  Call {site.phone}
-                </a>
-              </div>
-
-              <div className="rounded-lg border border-ink/10 bg-white p-5">
-                <p className="text-sm font-semibold uppercase tracking-wider text-flame">
-                  Option 2 — Online
-                </p>
-                <h3 className="mt-1 text-xl font-bold text-ink">Start online</h3>
-                <p className="mt-2 text-base text-steel">
-                  Submit your info through our quote intake on truckpolicy.com.
-                  We get the request immediately and call you back same day.
-                </p>
-                <a href={site.quoteUrl} className="btn-primary mt-4" target="_blank" rel="noopener noreferrer">
-                  Start My Quote →
-                </a>
-              </div>
-
-              <div className="rounded-lg border border-ink/10 bg-white p-5">
-                <p className="text-sm font-semibold uppercase tracking-wider text-flame">
-                  Email
-                </p>
-                <h3 className="mt-1 text-xl font-bold text-ink">Send the basics</h3>
-                <p className="mt-2 text-base text-steel">
-                  Email <a href={site.emailHref} className="font-semibold text-flame hover:underline">{site.email}</a> with your DOT, truck info, and what you haul. We'll come back with questions and quotes.
-                </p>
-              </div>
+            <div className="mt-10 rounded-lg border border-ink/10 bg-mist p-5">
+              <h3 className="text-lg font-bold text-ink">Prefer to talk?</h3>
+              <p className="mt-2 text-base text-steel">
+                Skip the form and get straight to a real person.
+              </p>
+              <a href={site.phoneHref} className="btn-primary mt-4 inline-flex">
+                Call or text {site.phone}
+              </a>
             </div>
           </div>
 
-          <div>
-            <h2 className="text-2xl font-bold text-ink sm:text-3xl">
-              What to have ready
-            </h2>
-            <p className="mt-3 text-base text-steel sm:text-lg">
-              You don't need all of this to start, but the more you have, the
-              faster we can quote.
-            </p>
-            <ul className="mt-6 space-y-3">
-              {checklist.map((item) => (
-                <li
-                  key={item}
-                  className="flex items-start gap-3 rounded-lg border border-ink/10 bg-white p-4"
-                >
-                  <span className="grid h-6 w-6 flex-none place-items-center rounded-full bg-flame text-xs font-bold text-white">
-                    ✓
-                  </span>
-                  <span className="text-base text-ink">{item}</span>
-                </li>
-              ))}
-            </ul>
+          <aside className="space-y-6">
+            <div className="rounded-lg border border-ink/10 bg-white p-5">
+              <h3 className="text-lg font-bold text-ink">What to have ready</h3>
+              <p className="mt-2 text-sm text-steel">
+                You don't need all of this to start — but the more you have,
+                the faster we can quote.
+              </p>
+              <ul className="mt-4 space-y-2 text-sm">
+                {checklist.map((item) => (
+                  <li key={item} className="flex items-start gap-2">
+                    <span className="grid h-5 w-5 flex-none place-items-center rounded-full bg-flame text-[10px] font-bold text-white">
+                      ✓
+                    </span>
+                    <span className="text-ink">{item}</span>
+                  </li>
+                ))}
+              </ul>
+            </div>
 
-            <div className="mt-8 rounded-lg border border-ink/10 bg-mist p-5">
-              <h3 className="text-lg font-bold text-ink">What happens next</h3>
-              <ol className="mt-3 list-decimal space-y-2 pl-5 text-base text-steel">
-                <li>We confirm your info — usually a 10-minute call.</li>
-                <li>We shop your account across our 23+ carrier panel.</li>
-                <li>We send you the best options with coverage and price side by side.</li>
+            <div className="rounded-lg border border-ink/10 bg-ink p-5 text-mist">
+              <h3 className="text-lg font-bold text-white">What happens next</h3>
+              <ol className="mt-3 list-decimal space-y-2 pl-5 text-sm">
+                <li>Finish the quick-start form (60 seconds).</li>
+                <li>Continue to the full quote intake.</li>
+                <li>We shop your account across 23+ carriers.</li>
+                <li>We send you the best options side by side.</li>
                 <li>You pick. We bind. COI emailed immediately.</li>
-                <li>FMCSA filing happens automatically — authority active in 24-48 hours.</li>
               </ol>
             </div>
-          </div>
-        </div>
-      </section>
 
-      <section className="bg-ink text-white">
-        <div className="container-narrow py-12 text-center">
-          <h2 className="text-3xl font-bold">Need same-day coverage?</h2>
-          <p className="mx-auto mt-3 max-w-xl text-mist">
-            Call before noon Pacific and we'll usually have you bound by end
-            of business. {site.phone}.
-          </p>
-          <a href={site.phoneHref} className="btn-primary mt-6 inline-flex">
-            Call {site.phone}
-          </a>
+            <div className="rounded-lg border border-flame/30 bg-flameSoft p-5 text-ink">
+              <h3 className="text-lg font-bold">Need same-day coverage?</h3>
+              <p className="mt-2 text-sm">
+                Call before noon Pacific and we'll usually have you bound by
+                end of business.
+              </p>
+              <a href={site.phoneHref} className="btn-primary mt-4 inline-flex">
+                Call or text {site.phone}
+              </a>
+            </div>
+          </aside>
         </div>
       </section>
 

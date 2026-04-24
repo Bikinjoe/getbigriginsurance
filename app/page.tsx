@@ -8,7 +8,7 @@ import { site } from "@/lib/site";
 export const metadata = {
   title: "Trucking Insurance for New Authority & Owner Operators",
   description:
-    "Get covered today. We shop 23+ carriers to find the best rate. Same-day coverage. New authority welcome. Call 541-681-8793.",
+    "Get covered today. We shop 23+ carriers to find the best rate. Same-day coverage. New authority welcome. Call or text 541-681-8793.",
 };
 
 const homeFAQs = [
@@ -86,7 +86,7 @@ export default function HomePage() {
       <section className="relative bg-gradient-to-br from-ink via-steel to-slate text-white">
         <div className="container-narrow py-16 sm:py-24">
           <p className="text-sm font-semibold uppercase tracking-wider text-flame">
-            Trucking insurance specialists · Eugene, OR
+            Trucking insurance specialists · {site.serviceArea}
           </p>
           <h1 className="mt-3 text-4xl font-extrabold leading-tight sm:text-5xl md:text-6xl">
             New Authority?
@@ -102,7 +102,7 @@ export default function HomePage() {
               Get My Quote
             </Link>
             <a href={site.phoneHref} className="btn-secondary w-full bg-white text-lg sm:w-auto">
-              Call {site.phone}
+              {site.phoneCTA}
             </a>
           </div>
 

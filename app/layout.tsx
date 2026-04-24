@@ -45,13 +45,10 @@ const businessSchema = {
   telephone: `+1-${site.phone}`,
   email: site.email,
   description: site.description,
-  address: {
-    "@type": "PostalAddress",
-    addressLocality: site.city,
-    addressRegion: site.state,
-    addressCountry: "US",
-  },
-  areaServed: "United States",
+  areaServed: site.serviceStates.map((s) => ({
+    "@type": "State",
+    name: s,
+  })),
   priceRange: "$$",
   sameAs: ["https://vantagepointrisk.com", "https://truckpolicy.com"],
 };

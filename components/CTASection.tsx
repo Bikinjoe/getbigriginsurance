@@ -20,7 +20,7 @@ export default function CTASection({
             Get My Quote
           </Link>
           <a href={site.phoneHref} className="btn-secondary w-full bg-white sm:w-auto">
-            Call {site.phone}
+            {site.phoneCTA}
           </a>
         </div>
       </div>

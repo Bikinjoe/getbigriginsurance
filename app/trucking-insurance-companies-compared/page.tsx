@@ -2,7 +2,7 @@ import PageHero from "@/components/PageHero";
 import Breadcrumbs from "@/components/Breadcrumbs";
 import CTASection from "@/components/CTASection";
 import RelatedLinks from "@/components/RelatedLinks";
-import VideoPlaceholder from "@/components/VideoPlaceholder";
+import LazyVideo from "@/components/LazyVideo";
 
 export const metadata = {
   title: "Independent Agent vs. Direct Carrier: Which Is Better for Trucking Insurance?",
@@ -64,7 +64,10 @@ export default function ComparedPage() {
           whole intake process.
         </p>
 
-        <VideoPlaceholder label="Independent agent vs. direct carrier, explained in 60 seconds" />
+        <LazyVideo
+          id="Nm2ZR1RskxA"
+          label="What truckers need to know about their policy"
+        />
 
         <h2>Where independent wins</h2>
         <ul>

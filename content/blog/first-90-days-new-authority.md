@@ -52,4 +52,4 @@ Set up auto-pay from your business account. Track your renewal date — most pol
 
 We shop your account across our 23+ carrier panel. We bind same-day when possible. We file your BMC-91 with FMCSA. We issue COIs to brokers within minutes during business hours. We re-underwrite at 6 months if you're eligible. We re-shop at renewal.
 
-If you're a new authority and you don't already have an agent who's doing all of that — call us. 541-681-8793.
+If you're a new authority and you don't already have an agent who's doing all of that — call us. Call or text 541-681-8793.

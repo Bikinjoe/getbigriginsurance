@@ -3,14 +3,14 @@ import PageHero from "@/components/PageHero";
 import Breadcrumbs from "@/components/Breadcrumbs";
 import CTASection from "@/components/CTASection";
 import RelatedLinks from "@/components/RelatedLinks";
-import VideoPlaceholder from "@/components/VideoPlaceholder";
+import LazyVideo from "@/components/LazyVideo";
 import JsonLd from "@/components/JsonLd";
 import { site } from "@/lib/site";
 
 export const metadata = {
   title: "New Trucking Authority? Here's Exactly What Insurance You Need",
   description:
-    "What FMCSA requires, what brokers require, what we recommend. Get covered the same day. Call 541-681-8793.",
+    "What FMCSA requires, what brokers require, what we recommend. Get covered the same day. Call or text 541-681-8793.",
 };
 
 const howTo = {
@@ -19,7 +19,7 @@ const howTo = {
   name: "How to Insure a New Trucking Authority",
   step: [
     { "@type": "HowToStep", name: "Gather your information", text: "DOT number, MC number, truck VIN, driver info, and operating radius." },
-    { "@type": "HowToStep", name: "Request a quote", text: "Call 541-681-8793 or use our online form to give us your details." },
+    { "@type": "HowToStep", name: "Request a quote", text: "Call or text 541-681-8793 or use our online form to give us your details." },
     { "@type": "HowToStep", name: "Review options", text: "We shop 23+ carriers and bring back the best price and coverage combination." },
     { "@type": "HowToStep", name: "Bind and get your COI", text: "We bind your policy the same day and send your certificate of insurance to brokers." },
   ],
@@ -103,7 +103,10 @@ export default function NewAuthorityPage() {
           someone running a 300-mile radius.
         </p>
 
-        <VideoPlaceholder label="New authority insurance requirements in 60 seconds" />
+        <LazyVideo
+          id="Nm2ZR1RskxA"
+          label="What truckers need to know about their policy"
+        />
 
         <h2>Timeline: how to get covered fast</h2>
         <p>

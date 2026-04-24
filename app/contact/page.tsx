@@ -7,7 +7,7 @@ import { site } from "@/lib/site";
 export const metadata = {
   title: "Contact — Talk to a Trucking Insurance Specialist",
   description:
-    "Call 541-681-8793 or email richard@vantagepointrisk.com. Real people answering trucking insurance questions for owner operators and new authorities.",
+    "Call or text 541-681-8793 or email richard@vantagepointrisk.com. Real people answering trucking insurance questions for owner operators and new authorities.",
 };
 
 export default function ContactPage() {
@@ -31,11 +31,11 @@ export default function ContactPage() {
               Phone
             </p>
             <p className="mt-2 text-3xl font-bold text-ink group-hover:text-flame">
-              {site.phone}
+              Call or text {site.phone}
             </p>
             <p className="mt-2 text-sm text-steel">
-              Click to call. Mon–Fri, 8am–6pm Pacific. After hours messages
-              returned next business day.
+              Click to call or text. Mon–Fri, 8am–6pm Pacific. After hours
+              messages returned next business day.
             </p>
           </a>
           <a
@@ -133,7 +133,7 @@ export default function ContactPage() {
               </button>
               <p className="text-xs text-steel">
                 This form opens your email client with the message pre-filled.
-                For faster response, just call {site.phone}.
+                For faster response, just call or text {site.phone}.
               </p>
             </form>
           </div>
@@ -148,12 +148,12 @@ export default function ContactPage() {
                 <br />
                 Independent trucking insurance agency
                 <br />
-                {site.city}, {site.state}
+                {site.serviceArea}
               </p>
               <p>
                 We specialize in commercial trucking insurance for new
-                authorities and owner operators. We work with 23+ carriers and
-                quote across the country.
+                authorities and owner operators. We work with 23+ carriers
+                across our service area.
               </p>
               <p>
                 Sister sites:{" "}

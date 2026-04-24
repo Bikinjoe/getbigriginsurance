@@ -3,7 +3,7 @@ import PageHero from "@/components/PageHero";
 import Breadcrumbs from "@/components/Breadcrumbs";
 import CTASection from "@/components/CTASection";
 import RelatedLinks from "@/components/RelatedLinks";
-import VideoPlaceholder from "@/components/VideoPlaceholder";
+import LazyVideo from "@/components/LazyVideo";
 import JsonLd from "@/components/JsonLd";
 
 export const metadata = {
@@ -65,7 +65,10 @@ export default function CostPage() {
           more to insure for physical damage.
         </p>
 
-        <VideoPlaceholder label="Trucking insurance cost, explained in 60 seconds" />
+        <LazyVideo
+          id="Nm2ZR1RskxA"
+          label="What truckers need to know about their policy"
+        />
 
         <h2>The cost breakdown</h2>
         <p>
@@ -159,7 +162,7 @@ export default function CostPage() {
         </p>
         <p>
           We can usually turn a quote around the same day. Call{" "}
-          <a href="tel:+15416818793">541-681-8793</a> or{" "}
+          <a href="tel:+15416818793">Call or text 541-681-8793</a> or{" "}
           <Link href="/get-a-quote">get started online</Link>.
         </p>
 

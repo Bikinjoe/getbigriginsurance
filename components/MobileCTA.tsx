@@ -8,9 +8,9 @@ export default function MobileCTA() {
         <a
           href={site.phoneHref}
           className="btn-secondary flex-1 px-3 py-2 text-sm"
-          aria-label={`Call ${site.phone}`}
+          aria-label={site.phoneCTA}
         >
-          📞 {site.phone}
+          📞 Call or text {site.phone}
         </a>
         <Link href="/get-a-quote" className="btn-primary flex-1 px-3 py-2 text-sm">
           Get a Quote

@@ -8,7 +8,7 @@ import { site } from "@/lib/site";
 export const metadata = {
   title: "About | We Specialize in Trucking Insurance",
   description:
-    "Vantage Point Risk Partners is an independent insurance agency in Eugene, OR that specializes in trucking. 23+ carriers, real people, real phone number.",
+    "Vantage Point Risk Partners is an independent insurance agency that specializes in trucking. Serving WA, OR, CA, ID, MT, WY, NV, UT, CO, NM, AZ & TX. 23+ carriers, real people, real phone number.",
 };
 
 export default function AboutPage() {
@@ -24,11 +24,11 @@ export default function AboutPage() {
       <article className="container-narrow prose-trucking pb-4 pt-8">
         <h2>Who we are</h2>
         <p>
-          Vantage Point Risk Partners LLC is an independent insurance agency
-          based in Eugene, Oregon. We specialize in commercial trucking
-          insurance — primary liability, motor truck cargo, physical damage,
-          trailer interchange, occupational accident, and the rest of the
-          policies that keep an owner-op on the road.
+          Vantage Point Risk Partners LLC is an independent insurance agency.{" "}
+          <strong>{site.serviceArea}.</strong> We specialize in commercial
+          trucking insurance — primary liability, motor truck cargo, physical
+          damage, trailer interchange, occupational accident, and the rest of
+          the policies that keep an owner-op on the road.
         </p>
         <p>
           We work with 23+ insurance carriers that write trucking. When you
@@ -72,13 +72,14 @@ export default function AboutPage() {
 
         <h2>Where we are</h2>
         <p>
-          {site.city}, {site.state}. Phone:{" "}
-          <a href={site.phoneHref}>{site.phone}</a>. Email:{" "}
+          <strong>{site.serviceArea}.</strong> Phone:{" "}
+          <a href={site.phoneHref}>Call or text {site.phone}</a>. Email:{" "}
           <a href={site.emailHref}>{site.email}</a>.
         </p>
         <p>
-          We write nationwide. Most of our truckers are not in Oregon. We
-          handle accounts in every state in the lower 48.
+          We write trucking insurance across the western and mountain states
+          and Texas. Most of our truckers run regional and OTR — we set up
+          carriers in every state we cover.
         </p>
 
         <h2>Sister sites</h2>

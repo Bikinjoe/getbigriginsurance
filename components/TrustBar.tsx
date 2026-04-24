@@ -17,7 +17,7 @@ export default function TrustBar() {
           </span>
         ))}
         <a href={site.phoneHref} className="text-flame hover:underline">
-          {site.phone}
+          {site.phoneCTA}
         </a>
       </div>
     </div>

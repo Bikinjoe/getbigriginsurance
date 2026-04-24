@@ -29,7 +29,7 @@ export default function PageHero({ eyebrow, title, sub, showCTAs = true }: Props
               Get My Quote
             </Link>
             <a href={site.phoneHref} className="btn-secondary w-full bg-white sm:w-auto">
-              Call {site.phone}
+              {site.phoneCTA}
             </a>
           </div>
         )}

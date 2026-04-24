@@ -64,7 +64,7 @@ export default function ReviewsPage() {
               </p>
             </div>
             <a
-              href="https://www.google.com/search?q=Vantage+Point+Risk+Partners+Eugene+OR"
+              href="https://www.google.com/search?q=Vantage+Point+Risk+Partners+trucking+insurance"
               target="_blank"
               rel="noopener noreferrer"
               className="btn-secondary"

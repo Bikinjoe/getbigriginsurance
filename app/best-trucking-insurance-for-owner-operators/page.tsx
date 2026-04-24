@@ -2,7 +2,7 @@ import PageHero from "@/components/PageHero";
 import Breadcrumbs from "@/components/Breadcrumbs";
 import CTASection from "@/components/CTASection";
 import RelatedLinks from "@/components/RelatedLinks";
-import VideoPlaceholder from "@/components/VideoPlaceholder";
+import LazyVideo from "@/components/LazyVideo";
 
 export const metadata = {
   title: "What's the Best Trucking Insurance for Owner Operators?",
@@ -37,7 +37,10 @@ export default function BestPage() {
           <li><strong>Fast.</strong> Quote in 24 hours. Bind same day. Claims paid on schedule. Endorsements processed in a week. Slow carriers cost you loads and sleep.</li>
         </ol>
 
-        <VideoPlaceholder label="How to pick the best trucking insurance" />
+        <LazyVideo
+          id="Nm2ZR1RskxA"
+          label="What truckers need to know about their policy"
+        />
 
         <h2>Why specialist beats generalist</h2>
         <p>

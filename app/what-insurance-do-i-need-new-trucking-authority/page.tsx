@@ -3,7 +3,7 @@ import PageHero from "@/components/PageHero";
 import Breadcrumbs from "@/components/Breadcrumbs";
 import CTASection from "@/components/CTASection";
 import RelatedLinks from "@/components/RelatedLinks";
-import VideoPlaceholder from "@/components/VideoPlaceholder";
+import LazyVideo from "@/components/LazyVideo";
 
 export const metadata = {
   title: "What Insurance Do You Need for a New Trucking Authority?",
@@ -86,7 +86,10 @@ export default function WhatInsurancePage() {
           <li><strong>Optional add-ons:</strong> downtime coverage, towing, rental</li>
         </ul>
 
-        <VideoPlaceholder label="The 3 policies every new authority needs" />
+        <LazyVideo
+          id="Nm2ZR1RskxA"
+          label="What truckers need to know about their policy"
+        />
 
         <h2>Trailer interchange / non-owned trailer</h2>
         <p>

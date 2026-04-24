@@ -2,9 +2,9 @@
 
 Next.js 14 (App Router) marketing site for **GetBigRigInsurance** — the trucking insurance brand of Vantage Point Risk Partners LLC, focused on new authority truckers and owner operators.
 
-- Phone: 541-681-8793
+- Phone: Call or text 541-681-8793
 - Email: richard@vantagepointrisk.com
-- Quote flow: https://truckpolicy.com/start-policy
+- Quote flow: `/get-a-quote` (Sembley two-step embedded intake)
 
 ## Stack
 

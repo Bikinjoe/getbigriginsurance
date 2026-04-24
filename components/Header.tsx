@@ -31,9 +31,9 @@ export default function Header() {
           <a
             href={site.phoneHref}
             className="text-sm font-semibold text-ink hover:text-flame"
-            aria-label={`Call ${site.phone}`}
+            aria-label={site.phoneCTA}
           >
-            {site.phone}
+            {site.phoneCTA}
           </a>
           <Link href="/get-a-quote" className="btn-primary">
             Get a Quote
@@ -67,7 +67,7 @@ export default function Header() {
               href={site.phoneHref}
               className="rounded-md px-3 py-2 text-base font-semibold text-ink hover:bg-mist"
             >
-              Call {site.phone}
+              {site.phoneCTA}
             </a>
             <Link
               href="/get-a-quote"

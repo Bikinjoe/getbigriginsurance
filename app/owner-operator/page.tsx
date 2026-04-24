@@ -3,7 +3,7 @@ import PageHero from "@/components/PageHero";
 import Breadcrumbs from "@/components/Breadcrumbs";
 import CTASection from "@/components/CTASection";
 import RelatedLinks from "@/components/RelatedLinks";
-import VideoPlaceholder from "@/components/VideoPlaceholder";
+import LazyVideo from "@/components/LazyVideo";
 
 export const metadata = {
   title: "Trucking Insurance for Owner Operators — Shop 23 Carriers",
@@ -81,7 +81,10 @@ export default function OwnerOperatorPage() {
           Rules vary by state.
         </p>
 
-        <VideoPlaceholder label="Owner operator insurance in plain English" />
+        <LazyVideo
+          id="Nm2ZR1RskxA"
+          label="What truckers need to know about their policy"
+        />
 
         <h2>Cost ranges for owner operators</h2>
         <p>

@@ -16,7 +16,7 @@ Here's what the breakdown looks like monthly: primary liability ($1M) runs $500 
 
 These are real ranges, not worst-case numbers. Some new authorities pay less. Some pay more. The only way to know your actual number is to get a real quote.
 
-We can usually turn a quote around the same day. Call 541-681-8793 or get started online.`,
+We can usually turn a quote around the same day. Call or text 541-681-8793 or get started online.`,
   },
   {
     slug: "insurance-for-new-authority",
@@ -31,7 +31,7 @@ You also need cargo coverage (typically $100,000) and physical damage on your tr
 
 A complete new authority program looks like: $1M primary liability, $100K cargo, physical damage on your truck, trailer interchange if you drop-and-hook, and non-trucking liability if you're also leased onto a motor carrier.
 
-We can quote all of this in a single pass. Call 541-681-8793.`,
+We can quote all of this in a single pass. Call or text 541-681-8793.`,
   },
   {
     slug: "same-day-coverage",
@@ -44,7 +44,7 @@ With that information, we can typically submit to 5 to 7 relevant carriers withi
 
 Complications that slow things down: missing VIN or truck value, no driver on file yet, prior claims that need documentation, or an unusual commodity that only one or two carriers write. We can usually work around all of these, but they add a day or two.
 
-If you need coverage fast, call first thing in the morning. We've bound policies by noon. Call 541-681-8793.`,
+If you need coverage fast, call first thing in the morning. We've bound policies by noon. Call or text 541-681-8793.`,
   },
   {
     slug: "why-expensive",
@@ -134,7 +134,7 @@ Some direct-to-consumer carriers will also write new authorities, but they tend 
 
 An independent specialist like us has access to 23+ of these markets. We know which ones to send you to based on your profile, and we know which ones to skip because they'll decline you or come back with an unworkable rate.
 
-If you want to know which specific carriers might quote your account, call us at 541-681-8793 and we'll walk through your profile.`,
+If you want to know which specific carriers might quote your account, call or text us at 541-681-8793 and we'll walk through your profile.`,
   },
   {
     slug: "time-to-get-insurance",

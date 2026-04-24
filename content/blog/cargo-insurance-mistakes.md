@@ -41,4 +41,4 @@ Talk to your agent before paying any cargo damage out of pocket. Sometimes filin
 
 Review your cargo policy. Read the exclusions. Add endorsements for what you actually haul. Carry enough limit for the loads you take. Keep your pickup paperwork tight.
 
-If you're not sure your cargo coverage matches your operation, [get a quote](/get-a-quote) or call 541-681-8793. We'll review what you have and tell you what's missing.
+If you're not sure your cargo coverage matches your operation, [get a quote](/get-a-quote) or Call or text 541-681-8793. We'll review what you have and tell you what's missing.
