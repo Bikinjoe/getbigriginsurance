@@ -25,30 +25,30 @@ export default function ContactPage() {
         <div className="grid gap-6 sm:grid-cols-2">
           <a
             href={site.phoneHref}
-            className="group rounded-lg border border-ink/10 bg-white p-6 shadow-sm transition hover:border-flame hover:shadow-md"
+            className="group rounded-lg border border-border bg-surface-2 p-6 shadow-sm transition hover:border-flame hover:shadow-md"
           >
             <p className="text-sm font-semibold uppercase tracking-wider text-flame">
               Phone
             </p>
-            <p className="mt-2 text-3xl font-bold text-ink group-hover:text-flame">
+            <p className="mt-2 text-3xl font-bold text-foreground group-hover:text-flame">
               Call or text {site.phone}
             </p>
-            <p className="mt-2 text-sm text-steel">
+            <p className="mt-2 text-sm text-muted">
               Click to call or text. Mon–Fri, 8am–6pm Pacific. After hours
               messages returned next business day.
             </p>
           </a>
           <a
             href={site.emailHref}
-            className="group rounded-lg border border-ink/10 bg-white p-6 shadow-sm transition hover:border-flame hover:shadow-md"
+            className="group rounded-lg border border-border bg-surface-2 p-6 shadow-sm transition hover:border-flame hover:shadow-md"
           >
             <p className="text-sm font-semibold uppercase tracking-wider text-flame">
               Email
             </p>
-            <p className="mt-2 break-all text-2xl font-bold text-ink group-hover:text-flame">
+            <p className="mt-2 break-all text-2xl font-bold text-foreground group-hover:text-flame">
               {site.email}
             </p>
-            <p className="mt-2 text-sm text-steel">
+            <p className="mt-2 text-sm text-muted">
               Best for non-urgent quote requests, document submissions, and
               renewal questions.
             </p>
@@ -57,10 +57,10 @@ export default function ContactPage() {
 
         <div className="mt-10 grid gap-8 lg:grid-cols-2">
           <div>
-            <h2 className="text-2xl font-bold text-ink sm:text-3xl">
+            <h2 className="text-2xl font-bold text-foreground sm:text-3xl">
               Send a message
             </h2>
-            <p className="mt-3 text-base text-steel">
+            <p className="mt-3 text-base text-muted">
               Quick contact form. Goes straight to our inbox.
             </p>
 
@@ -71,7 +71,7 @@ export default function ContactPage() {
               className="mt-6 space-y-4"
             >
               <div>
-                <label className="block text-sm font-semibold text-ink" htmlFor="name">
+                <label className="block text-sm font-semibold text-foreground" htmlFor="name">
                   Name
                 </label>
                 <input
@@ -79,22 +79,22 @@ export default function ContactPage() {
                   name="name"
                   type="text"
                   required
-                  className="mt-1 w-full rounded-md border border-ink/20 px-3 py-2 text-base focus:border-flame focus:outline-none focus:ring-1 focus:ring-flame"
+                  className="mt-1 w-full rounded-md border border-border px-3 py-2 text-base focus:border-flame focus:outline-none focus:ring-1 focus:ring-flame"
                 />
               </div>
               <div>
-                <label className="block text-sm font-semibold text-ink" htmlFor="phone">
+                <label className="block text-sm font-semibold text-foreground" htmlFor="phone">
                   Phone
                 </label>
                 <input
                   id="phone"
                   name="phone"
                   type="tel"
-                  className="mt-1 w-full rounded-md border border-ink/20 px-3 py-2 text-base focus:border-flame focus:outline-none focus:ring-1 focus:ring-flame"
+                  className="mt-1 w-full rounded-md border border-border px-3 py-2 text-base focus:border-flame focus:outline-none focus:ring-1 focus:ring-flame"
                 />
               </div>
               <div>
-                <label className="block text-sm font-semibold text-ink" htmlFor="email">
+                <label className="block text-sm font-semibold text-foreground" htmlFor="email">
                   Email
                 </label>
                 <input
@@ -102,22 +102,22 @@ export default function ContactPage() {
                   name="email"
                   type="email"
                   required
-                  className="mt-1 w-full rounded-md border border-ink/20 px-3 py-2 text-base focus:border-flame focus:outline-none focus:ring-1 focus:ring-flame"
+                  className="mt-1 w-full rounded-md border border-border px-3 py-2 text-base focus:border-flame focus:outline-none focus:ring-1 focus:ring-flame"
                 />
               </div>
               <div>
-                <label className="block text-sm font-semibold text-ink" htmlFor="dot">
+                <label className="block text-sm font-semibold text-foreground" htmlFor="dot">
                   DOT or MC number (optional)
                 </label>
                 <input
                   id="dot"
                   name="dot"
                   type="text"
-                  className="mt-1 w-full rounded-md border border-ink/20 px-3 py-2 text-base focus:border-flame focus:outline-none focus:ring-1 focus:ring-flame"
+                  className="mt-1 w-full rounded-md border border-border px-3 py-2 text-base focus:border-flame focus:outline-none focus:ring-1 focus:ring-flame"
                 />
               </div>
               <div>
-                <label className="block text-sm font-semibold text-ink" htmlFor="message">
+                <label className="block text-sm font-semibold text-foreground" htmlFor="message">
                   Message
                 </label>
                 <textarea
@@ -125,13 +125,13 @@ export default function ContactPage() {
                   name="message"
                   rows={5}
                   required
-                  className="mt-1 w-full rounded-md border border-ink/20 px-3 py-2 text-base focus:border-flame focus:outline-none focus:ring-1 focus:ring-flame"
+                  className="mt-1 w-full rounded-md border border-border px-3 py-2 text-base focus:border-flame focus:outline-none focus:ring-1 focus:ring-flame"
                 />
               </div>
               <button type="submit" className="btn-primary w-full sm:w-auto">
                 Send message
               </button>
-              <p className="text-xs text-steel">
+              <p className="text-xs text-muted">
                 This form opens your email client with the message pre-filled.
                 For faster response, just call or text {site.phone}.
               </p>
@@ -139,12 +139,12 @@ export default function ContactPage() {
           </div>
 
           <div>
-            <h2 className="text-2xl font-bold text-ink sm:text-3xl">
+            <h2 className="text-2xl font-bold text-foreground sm:text-3xl">
               About us
             </h2>
-            <div className="mt-3 space-y-3 text-base text-steel">
+            <div className="mt-3 space-y-3 text-base text-muted">
               <p>
-                <strong className="text-ink">{site.legalName}</strong>
+                <strong className="text-foreground">{site.legalName}</strong>
                 <br />
                 Independent trucking insurance agency
                 <br />
@@ -167,9 +167,9 @@ export default function ContactPage() {
               </p>
             </div>
 
-            <div className="mt-6 rounded-lg border border-ink/10 bg-mist p-5">
-              <h3 className="text-lg font-bold text-ink">Office hours</h3>
-              <ul className="mt-2 space-y-1 text-base text-steel">
+            <div className="mt-6 rounded-lg border border-border bg-surface p-5">
+              <h3 className="text-lg font-bold text-foreground">Office hours</h3>
+              <ul className="mt-2 space-y-1 text-base text-muted">
                 <li>Monday – Friday: 8am – 6pm Pacific</li>
                 <li>Saturday: by appointment</li>
                 <li>Sunday: closed</li>
@@ -177,7 +177,7 @@ export default function ContactPage() {
               </ul>
             </div>
 
-            <div className="mt-6 rounded-lg border border-ink/10 bg-ink p-5 text-mist">
+            <div className="mt-6 rounded-lg border border-border bg-bg p-5 text-foreground">
               <h3 className="text-lg font-bold text-white">Need a quote?</h3>
               <p className="mt-2 text-sm">
                 Skip the form. Get straight to a quote.

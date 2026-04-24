@@ -9,13 +9,15 @@ const config: Config = {
   theme: {
     extend: {
       colors: {
-        ink: "#0d1b2a",
-        steel: "#1b263b",
-        slate: "#415a77",
-        mist: "#e0e1dd",
-        flame: "#ff6b1a",
-        flameDark: "#e25510",
-        flameSoft: "#ffe1d0",
+        // Dark theme palette
+        bg: "#111111",
+        surface: "#1E1E1E",
+        "surface-2": "#252525",
+        foreground: "#F5F5F5",
+        muted: "#A0A0A0",
+        flame: "#F97316",
+        flameDark: "#EA6B0E",
+        border: "#333333",
       },
       fontFamily: {
         sans: ["system-ui", "-apple-system", "Segoe UI", "Roboto", "sans-serif"],

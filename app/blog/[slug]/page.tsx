@@ -50,17 +50,17 @@ export default function BlogPost({ params }: { params: { slug: string } }) {
           {post.tags.map((t) => (
             <span
               key={t}
-              className="rounded-full bg-mist px-2 py-1 text-xs font-semibold uppercase tracking-wider text-ink"
+              className="rounded-full bg-surface px-2 py-1 text-xs font-semibold uppercase tracking-wider text-foreground"
             >
               {t}
             </span>
           ))}
         </div>
-        <h1 className="mt-4 text-3xl font-extrabold text-ink sm:text-4xl md:text-5xl">
+        <h1 className="mt-4 text-3xl font-extrabold text-foreground sm:text-4xl md:text-5xl">
           {post.title}
         </h1>
         {post.date && (
-          <p className="mt-3 text-sm text-slate">
+          <p className="mt-3 text-sm text-muted">
             <time dateTime={post.date}>
               {new Date(post.date).toLocaleDateString("en-US", {
                 year: "numeric",

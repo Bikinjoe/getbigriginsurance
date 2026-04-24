@@ -21,6 +21,128 @@ export default function AboutPage() {
       />
       <Breadcrumbs items={[{ label: "About" }]} />
 
+      <section className="container-narrow pt-8">
+        <h2 className="text-3xl font-bold text-foreground sm:text-4xl">
+          Who You're Working With
+        </h2>
+        <div className="mt-6 grid gap-6 md:grid-cols-[200px_minmax(0,1fr)] md:gap-8">
+          <div className="rounded-lg border border-border bg-surface-2 p-3">
+            {/* eslint-disable-next-line @next/next/no-img-element */}
+            <img
+              src="/team/richard-sweet.jpg"
+              alt="Richard Sweet, Trucking Insurance Specialist"
+              width={400}
+              height={500}
+              loading="lazy"
+              className="aspect-[4/5] w-full rounded-md bg-surface object-cover"
+            />
+            <p className="mt-3 text-center text-xs uppercase tracking-wider text-muted">
+              Photo placeholder
+            </p>
+          </div>
+
+          <div>
+            <p className="text-sm font-semibold uppercase tracking-wider text-flame">
+              Owner · Vantage Point Risk Partners
+            </p>
+            <h3 className="mt-1 text-2xl font-bold text-foreground sm:text-3xl">
+              Richard Sweet
+            </h3>
+            <p className="mt-1 text-sm text-muted">
+              Eugene, Oregon · Licensed in OR, WA, CA and across the western US
+            </p>
+
+            <div className="mt-5 space-y-3 text-base text-muted sm:text-lg">
+              <p>
+                Independent insurance agent specializing in trucking and
+                commercial lines. Works directly with 23+ carriers that write
+                commercial transportation — dry van, flatbed, reefer, hot
+                shot, auto transport, hazmat, and box truck operations.
+              </p>
+              <p>
+                Focused on getting new authority truckers covered fast at fair
+                rates. Most quotes turn around the same business day. No
+                broker fees, no menus, no hand-offs to a back office — you
+                work with the same person from first call through renewal.
+              </p>
+            </div>
+
+            <div className="mt-5 flex flex-wrap gap-4">
+              <a
+                href={site.phoneHref}
+                className="btn-primary"
+                aria-label={site.phoneCTA}
+              >
+                {site.phoneCTA}
+              </a>
+              <a href={site.emailHref} className="btn-secondary">
+                {site.email}
+              </a>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section className="container-narrow pt-12">
+        <div className="rounded-lg border border-border bg-surface-2 p-6 sm:p-8">
+          <h2 className="text-2xl font-bold text-foreground sm:text-3xl">
+            What Happens When Something Goes Wrong
+          </h2>
+          <p className="mt-3 text-base text-muted sm:text-lg">
+            Things go sideways in trucking. Here's how we handle the three
+            things that matter most.
+          </p>
+
+          <div className="mt-6 grid gap-5 md:grid-cols-3">
+            <div className="rounded-lg border border-border bg-surface p-5">
+              <p className="text-xs font-semibold uppercase tracking-wider text-flame">
+                Claims
+              </p>
+              <h3 className="mt-2 text-lg font-bold text-foreground">
+                We help you file and we push
+              </h3>
+              <p className="mt-2 text-sm text-muted">
+                Call us first. We walk you through what the carrier needs,
+                report the claim, and then follow up with the adjuster. If a
+                claim stalls, we escalate. We're not going to make a claim go
+                away that shouldn't — we're going to make sure the carrier
+                pays what the policy says they owe.
+              </p>
+            </div>
+
+            <div className="rounded-lg border border-border bg-surface p-5">
+              <p className="text-xs font-semibold uppercase tracking-wider text-flame">
+                Billing disputes
+              </p>
+              <h3 className="mt-2 text-lg font-bold text-foreground">
+                We go to bat for you
+              </h3>
+              <p className="mt-2 text-sm text-muted">
+                Premium changed mid-term? Finance company math is wrong?
+                Auto-pay failed and the carrier is threatening cancellation?
+                Forward it to us. We figure out what actually happened, talk
+                to the billing rep, and fix it — usually the same day.
+              </p>
+            </div>
+
+            <div className="rounded-lg border border-border bg-surface p-5">
+              <p className="text-xs font-semibold uppercase tracking-wider text-flame">
+                Policy questions
+              </p>
+              <h3 className="mt-2 text-lg font-bold text-foreground">
+                Call or text. We answer.
+              </h3>
+              <p className="mt-2 text-sm text-muted">
+                Broker wants a weird endorsement you've never heard of?
+                Shipper needs a higher cargo limit for one load? Not sure if a
+                load is covered under your current policy? Call or text. We
+                answer the phone and we give you a straight answer.
+              </p>
+            </div>
+          </div>
+        </div>
+      </section>
+
       <article className="container-narrow prose-trucking pb-4 pt-8">
         <h2>Who we are</h2>
         <p>

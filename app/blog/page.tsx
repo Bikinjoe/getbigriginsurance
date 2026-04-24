@@ -23,7 +23,7 @@ export default function BlogIndex() {
 
       <section className="container-narrow py-10">
         {posts.length === 0 ? (
-          <p className="text-base text-steel">
+          <p className="text-base text-muted">
             No posts yet. The first ones will land soon — check back Monday.
           </p>
         ) : (
@@ -32,25 +32,25 @@ export default function BlogIndex() {
               <Link
                 key={post.slug}
                 href={`/blog/${post.slug}`}
-                className="group flex flex-col rounded-lg border border-ink/10 bg-white p-6 transition hover:border-flame hover:shadow-md"
+                className="group flex flex-col rounded-lg border border-border bg-surface-2 p-6 transition hover:border-flame hover:shadow-md"
               >
                 <div className="flex flex-wrap gap-2">
                   {post.tags.map((t) => (
                     <span
                       key={t}
-                      className="rounded-full bg-mist px-2 py-1 text-xs font-semibold uppercase tracking-wider text-ink"
+                      className="rounded-full bg-surface px-2 py-1 text-xs font-semibold uppercase tracking-wider text-foreground"
                     >
                       {t}
                     </span>
                   ))}
                 </div>
-                <h2 className="mt-4 text-xl font-bold text-ink group-hover:text-flame sm:text-2xl">
+                <h2 className="mt-4 text-xl font-bold text-foreground group-hover:text-flame sm:text-2xl">
                   {post.title}
                 </h2>
                 {post.excerpt && (
-                  <p className="mt-3 text-base text-steel">{post.excerpt}</p>
+                  <p className="mt-3 text-base text-muted">{post.excerpt}</p>
                 )}
-                <div className="mt-4 text-sm text-slate">
+                <div className="mt-4 text-sm text-muted">
                   {post.date && (
                     <time dateTime={post.date}>
                       {new Date(post.date).toLocaleDateString("en-US", {

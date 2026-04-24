@@ -3,51 +3,84 @@
 @tailwind utilities;
 
 :root {
-  --color-ink: #0d1b2a;
-  --color-flame: #ff6b1a;
+  color-scheme: dark;
+  --color-bg: #111111;
+  --color-surface: #1E1E1E;
+  --color-surface-2: #252525;
+  --color-foreground: #F5F5F5;
+  --color-muted: #A0A0A0;
+  --color-flame: #F97316;
+  --color-flame-dark: #EA6B0E;
+  --color-border: #333333;
 }
 
 html {
   scroll-behavior: smooth;
+  background-color: var(--color-bg);
 }
 
 body {
-  @apply bg-white text-ink antialiased;
+  background-color: var(--color-bg);
+  color: var(--color-foreground);
   font-feature-settings: "kern" 1, "liga" 1;
+  -webkit-font-smoothing: antialiased;
+}
+
+::selection {
+  background-color: var(--color-flame);
+  color: #ffffff;
 }
 
 @layer components {
   .btn-primary {
-    @apply inline-flex items-center justify-center rounded-md bg-flame px-5 py-3 text-base font-semibold text-white shadow-sm transition hover:bg-flameDark focus:outline-none focus:ring-2 focus:ring-flame focus:ring-offset-2;
+    @apply inline-flex items-center justify-center rounded-md bg-flame px-5 py-3 text-base font-semibold text-white shadow-sm transition hover:bg-flameDark focus:outline-none focus:ring-2 focus:ring-flame focus:ring-offset-2 focus:ring-offset-bg;
   }
   .btn-secondary {
-    @apply inline-flex items-center justify-center rounded-md border border-ink/20 bg-white px-5 py-3 text-base font-semibold text-ink transition hover:bg-mist focus:outline-none focus:ring-2 focus:ring-ink focus:ring-offset-2;
+    @apply inline-flex items-center justify-center rounded-md border border-border bg-surface px-5 py-3 text-base font-semibold text-foreground transition hover:bg-surface-2 focus:outline-none focus:ring-2 focus:ring-flame focus:ring-offset-2 focus:ring-offset-bg;
   }
   .btn-ghost {
-    @apply inline-flex items-center justify-center rounded-md px-4 py-2 text-base font-semibold text-ink transition hover:bg-mist;
+    @apply inline-flex items-center justify-center rounded-md px-4 py-2 text-base font-semibold text-foreground transition hover:bg-surface hover:text-flame;
   }
   .container-narrow {
     @apply mx-auto w-full max-w-5xl px-4 sm:px-6 lg:px-8;
   }
   .prose-trucking h2 {
-    @apply mt-10 text-2xl font-bold text-ink sm:text-3xl;
+    @apply mt-10 text-2xl font-bold text-foreground sm:text-3xl;
   }
   .prose-trucking h3 {
-    @apply mt-6 text-xl font-semibold text-ink sm:text-2xl;
+    @apply mt-6 text-xl font-semibold text-foreground sm:text-2xl;
   }
   .prose-trucking p {
-    @apply mt-4 text-base leading-relaxed text-steel sm:text-lg;
+    @apply mt-4 text-base leading-relaxed text-muted sm:text-lg;
   }
   .prose-trucking ul {
-    @apply mt-4 list-disc space-y-2 pl-5 text-base text-steel sm:text-lg;
+    @apply mt-4 list-disc space-y-2 pl-5 text-base text-muted sm:text-lg;
   }
   .prose-trucking ol {
-    @apply mt-4 list-decimal space-y-2 pl-5 text-base text-steel sm:text-lg;
+    @apply mt-4 list-decimal space-y-2 pl-5 text-base text-muted sm:text-lg;
   }
   .prose-trucking a {
     @apply font-semibold text-flame underline-offset-2 hover:underline;
   }
   .prose-trucking strong {
-    @apply text-ink;
+    @apply text-foreground;
+  }
+  .prose-trucking table {
+    @apply mt-6 w-full border-collapse overflow-hidden rounded-lg border border-border text-sm sm:text-base;
+  }
+  .prose-trucking table th,
+  .prose-trucking table td {
+    @apply border-b border-border px-3 py-2 text-left align-top;
+  }
+  .prose-trucking table th {
+    @apply bg-surface-2 font-semibold text-foreground;
+  }
+  .prose-trucking table tbody tr:nth-child(even) {
+    @apply bg-surface;
+  }
+
+  /* Ensure Sembley iframe inherits dark surface */
+  #sembley-intake-form iframe {
+    @apply w-full rounded-md bg-surface-2;
   }
 }

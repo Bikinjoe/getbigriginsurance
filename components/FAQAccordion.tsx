@@ -8,7 +8,7 @@ export default function FAQAccordion({ items }: { items: FAQ[] }) {
   const [open, setOpen] = useState<number | null>(0);
 
   return (
-    <div className="divide-y divide-ink/10 rounded-lg border border-ink/10 bg-white">
+    <div className="divide-y divide-border rounded-lg border border-border bg-surface-2">
       {items.map((item, i) => {
         const isOpen = open === i;
         return (
@@ -18,18 +18,18 @@ export default function FAQAccordion({ items }: { items: FAQ[] }) {
               onClick={() => setOpen(isOpen ? null : i)}
               aria-expanded={isOpen}
             >
-              <span className="text-base font-semibold text-ink sm:text-lg">{item.q}</span>
+              <span className="text-base font-semibold text-foreground sm:text-lg">{item.q}</span>
               <span
                 aria-hidden
-                className={`mt-1 grid h-6 w-6 flex-none place-items-center rounded-full border border-ink/20 text-sm transition ${
-                  isOpen ? "bg-flame text-white" : "text-ink"
+                className={`mt-1 grid h-6 w-6 flex-none place-items-center rounded-full border border-border text-sm transition ${
+                  isOpen ? "bg-flame text-white" : "text-foreground"
                 }`}
               >
                 {isOpen ? "–" : "+"}
               </span>
             </button>
             {isOpen && (
-              <div className="prose-trucking px-5 pb-5 text-base text-steel">
+              <div className="prose-trucking px-5 pb-5 text-base text-muted">
                 {item.a}
               </div>
             )}

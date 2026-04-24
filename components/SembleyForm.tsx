@@ -99,7 +99,7 @@ export default function SembleyForm({
   }, [onSubmitted]);
 
   return (
-    <div ref={wrapRef} className="overflow-hidden rounded-lg border border-ink/10 bg-white">
+    <div ref={wrapRef} className="overflow-hidden rounded-lg border border-border bg-surface-2">
       <div
         id="sembley-intake-form"
         data-form-id={formId}

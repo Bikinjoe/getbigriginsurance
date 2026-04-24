@@ -39,6 +39,32 @@ export default function CostPage() {
           ],
         }}
       />
+      <JsonLd
+        data={{
+          "@context": "https://schema.org",
+          "@type": "Service",
+          serviceType: "Commercial Trucking Insurance",
+          provider: {
+            "@type": "InsuranceAgency",
+            name: "Vantage Point Risk Partners",
+            url: "https://getbigriginsurance.com",
+          },
+          areaServed: ["AZ", "CA", "CO", "ID", "MT", "NM", "NV", "OR", "TX", "UT", "WA", "WY"],
+          offers: {
+            "@type": "AggregateOffer",
+            priceCurrency: "USD",
+            lowPrice: "5000",
+            highPrice: "22000",
+            priceSpecification: {
+              "@type": "PriceSpecification",
+              priceCurrency: "USD",
+              price: "5000-22000",
+              description:
+                "Annual trucking insurance premium range for owner operators — primary liability and physical damage combined. Actual rate depends on truck type, commodity, radius, driver record, and underwriting review.",
+            },
+          },
+        }}
+      />
       <PageHero
         eyebrow="Big question, plain answer"
         title="How Much Does Trucking Insurance Cost? Real Numbers for Owner Operators."
@@ -186,6 +212,82 @@ export default function CostPage() {
           $1M brokers require), they forgot cargo coverage, or they quoted a
           carrier that won't actually bind the policy once underwriting looks
           at it. We'll tell you when a quote is too good to be true.
+        </p>
+
+        <h2>Typical pricing by truck type and commodity</h2>
+        <p>
+          Here's what we see across our carrier panel, broken down by the
+          most common truck and commodity combinations. Year 1 is new
+          authority pricing. Year 2+ assumes a clean record with no claims.
+        </p>
+
+        <div className="mt-6 overflow-x-auto">
+          <table>
+            <thead>
+              <tr>
+                <th>Truck Type</th>
+                <th>Commodity</th>
+                <th>New Authority (Year 1)</th>
+                <th>Experienced (2+ Years)</th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr>
+                <td>Dry Van</td>
+                <td>General Freight</td>
+                <td>$9,000 – $14,000 / yr</td>
+                <td>$6,000 – $10,000 / yr</td>
+              </tr>
+              <tr>
+                <td>Flatbed</td>
+                <td>Building Materials</td>
+                <td>$10,000 – $15,000 / yr</td>
+                <td>$7,000 – $11,000 / yr</td>
+              </tr>
+              <tr>
+                <td>Reefer</td>
+                <td>Produce / Food</td>
+                <td>$11,000 – $16,000 / yr</td>
+                <td>$8,000 – $12,000 / yr</td>
+              </tr>
+              <tr>
+                <td>Box Truck</td>
+                <td>General Freight</td>
+                <td>$7,000 – $11,000 / yr</td>
+                <td>$5,000 – $8,000 / yr</td>
+              </tr>
+              <tr>
+                <td>Hot Shot</td>
+                <td>General Freight</td>
+                <td>$8,000 – $13,000 / yr</td>
+                <td>$6,000 – $9,000 / yr</td>
+              </tr>
+              <tr>
+                <td>Auto Transport</td>
+                <td>Vehicles</td>
+                <td>$14,000 – $22,000 / yr</td>
+                <td>$10,000 – $16,000 / yr</td>
+              </tr>
+            </tbody>
+          </table>
+        </div>
+
+        <p className="mt-4 text-sm">
+          <em>
+            These are estimates for primary liability and physical damage
+            combined. Actual rates depend on your specific truck, driving
+            record, radius, and underwriting review. Call or text
+            541-681-8793 for your actual number.
+          </em>
+        </p>
+
+        <p className="mt-4">
+          Want to run different scenarios? Use our{" "}
+          <Link href="/trucking-insurance-calculator">
+            trucking insurance cost calculator
+          </Link>{" "}
+          to estimate your own range based on your truck, commodity, radius,
+          and record.
         </p>
       </article>
 

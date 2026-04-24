@@ -53,13 +53,13 @@ export default function ReviewsPage() {
       <Breadcrumbs items={[{ label: "Reviews" }]} />
 
       <section className="container-narrow pt-8">
-        <div className="rounded-lg border border-ink/10 bg-white p-6 shadow-sm">
+        <div className="rounded-lg border border-border bg-surface-2 p-6 shadow-sm">
           <div className="flex flex-col gap-2 sm:flex-row sm:items-center sm:justify-between">
             <div>
               <p className="text-sm font-semibold uppercase tracking-wider text-flame">
                 Google reviews
               </p>
-              <p className="mt-1 text-2xl font-bold text-ink">
+              <p className="mt-1 text-2xl font-bold text-foreground">
                 ★★★★★ — Verified by Google
               </p>
             </div>
@@ -72,7 +72,7 @@ export default function ReviewsPage() {
               See all Google reviews
             </a>
           </div>
-          <p className="mt-4 text-sm text-steel">
+          <p className="mt-4 text-sm text-muted">
             Widget placeholder — live Google reviews feed integrated on
             production via the Google Places API / Trustpilot embed.
           </p>
@@ -80,20 +80,20 @@ export default function ReviewsPage() {
       </section>
 
       <section className="container-narrow py-10">
-        <h2 className="text-2xl font-bold text-ink sm:text-3xl">
+        <h2 className="text-2xl font-bold text-foreground sm:text-3xl">
           What truckers say
         </h2>
         <div className="mt-6 grid gap-5 md:grid-cols-2">
           {reviews.map((r, i) => (
             <figure
               key={i}
-              className="rounded-lg border border-ink/10 bg-white p-5 shadow-sm"
+              className="rounded-lg border border-border bg-surface-2 p-5 shadow-sm"
             >
               <div className="text-flame">★★★★★</div>
-              <blockquote className="mt-3 text-base text-steel">
+              <blockquote className="mt-3 text-base text-muted">
                 "{r.quote}"
               </blockquote>
-              <figcaption className="mt-4 text-sm font-semibold text-ink">
+              <figcaption className="mt-4 text-sm font-semibold text-foreground">
                 — {r.author}
               </figcaption>
             </figure>

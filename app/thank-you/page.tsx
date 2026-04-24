@@ -11,7 +11,7 @@ export const metadata = {
 export default function ThankYouPage() {
   return (
     <>
-      <section className="bg-gradient-to-b from-ink to-steel text-white">
+      <section className="bg-gradient-to-b from-bg to-surface text-white">
         <div className="container-narrow py-14 sm:py-20">
           <p className="text-sm font-semibold uppercase tracking-wider text-flame">
             Got it
@@ -19,7 +19,7 @@ export default function ThankYouPage() {
           <h1 className="mt-2 text-3xl font-extrabold leading-tight sm:text-4xl md:text-5xl">
             We got your info.
           </h1>
-          <p className="mt-4 max-w-3xl text-base text-mist sm:text-lg">
+          <p className="mt-4 max-w-3xl text-base text-foreground sm:text-lg">
             We'll be in touch shortly. If you want to save some time, complete
             the full intake form below and we can get started right away.
           </p>
@@ -35,7 +35,7 @@ export default function ThankYouPage() {
       <section className="container-narrow pb-12">
         <Link
           href="/"
-          className="text-sm font-semibold text-slate hover:text-flame"
+          className="text-sm font-semibold text-muted hover:text-flame"
         >
           ← Back to GetBigRigInsurance.com
         </Link>

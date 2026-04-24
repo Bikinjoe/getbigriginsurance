@@ -12,6 +12,8 @@ export default function sitemap(): MetadataRoute.Sitemap {
     "/trucking-insurance-companies-compared",
     "/best-trucking-insurance-for-owner-operators",
     "/trucking-insurance-reviews",
+    "/trucking-insurance-problems",
+    "/trucking-insurance-calculator",
     "/faq",
     "/about",
     "/get-a-quote",

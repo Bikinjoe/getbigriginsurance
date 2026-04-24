@@ -83,7 +83,7 @@ export default function HomePage() {
       />
 
       {/* Hero */}
-      <section className="relative bg-gradient-to-br from-ink via-steel to-slate text-white">
+      <section className="relative bg-gradient-to-br from-bg via-surface to-surface-2 text-white">
         <div className="container-narrow py-16 sm:py-24">
           <p className="text-sm font-semibold uppercase tracking-wider text-flame">
             Trucking insurance specialists · {site.serviceArea}
@@ -93,7 +93,7 @@ export default function HomePage() {
             <br />
             <span className="text-flame">Get Covered Today.</span>
           </h1>
-          <p className="mt-5 max-w-2xl text-lg text-mist sm:text-xl">
+          <p className="mt-5 max-w-2xl text-lg text-foreground sm:text-xl">
             We shop 23+ carriers to find you the best rate. Same-day coverage
             available. No runaround.
           </p>
@@ -101,12 +101,12 @@ export default function HomePage() {
             <Link href="/get-a-quote" className="btn-primary w-full text-lg sm:w-auto">
               Get My Quote
             </Link>
-            <a href={site.phoneHref} className="btn-secondary w-full bg-white text-lg sm:w-auto">
+            <a href={site.phoneHref} className="btn-secondary w-full bg-surface-2 text-lg sm:w-auto">
               {site.phoneCTA}
             </a>
           </div>
 
-          <div className="mt-10 grid gap-3 text-sm text-mist sm:grid-cols-2 md:grid-cols-4">
+          <div className="mt-10 grid gap-3 text-sm text-foreground sm:grid-cols-2 md:grid-cols-4">
             {["23+ carrier markets", "Same-day coverage", "New authority welcome", "Independent agency"].map(
               (b) => (
                 <div key={b} className="flex items-center gap-2">
@@ -128,30 +128,30 @@ export default function HomePage() {
         <div className="grid gap-4 md:grid-cols-2">
           <Link
             href="/new-authority"
-            className="group rounded-lg border border-ink/10 bg-white p-6 shadow-sm transition hover:border-flame hover:shadow-md"
+            className="group rounded-lg border border-border bg-surface-2 p-6 shadow-sm transition hover:border-flame hover:shadow-md"
           >
             <p className="text-sm font-semibold uppercase tracking-wider text-flame">
               Just got your MC/DOT?
             </p>
-            <h2 className="mt-2 text-2xl font-bold text-ink group-hover:text-flame">
+            <h2 className="mt-2 text-2xl font-bold text-foreground group-hover:text-flame">
               New Authority Insurance →
             </h2>
-            <p className="mt-2 text-base text-steel">
+            <p className="mt-2 text-base text-muted">
               What FMCSA requires, what brokers require, and how to get covered
               in 24 hours.
             </p>
           </Link>
           <Link
             href="/owner-operator"
-            className="group rounded-lg border border-ink/10 bg-white p-6 shadow-sm transition hover:border-flame hover:shadow-md"
+            className="group rounded-lg border border-border bg-surface-2 p-6 shadow-sm transition hover:border-flame hover:shadow-md"
           >
             <p className="text-sm font-semibold uppercase tracking-wider text-flame">
               Running your own authority?
             </p>
-            <h2 className="mt-2 text-2xl font-bold text-ink group-hover:text-flame">
+            <h2 className="mt-2 text-2xl font-bold text-foreground group-hover:text-flame">
               Owner Operator Coverage →
             </h2>
-            <p className="mt-2 text-base text-steel">
+            <p className="mt-2 text-base text-muted">
               Shop 23 carriers in one shot. Coverage that fits the freight
               you actually haul.
             </p>
@@ -160,14 +160,14 @@ export default function HomePage() {
       </section>
 
       {/* Problem section */}
-      <section className="bg-mist">
+      <section className="bg-surface">
         <div className="container-narrow py-16">
-          <h2 className="text-3xl font-bold text-ink sm:text-4xl">
+          <h2 className="text-3xl font-bold text-foreground sm:text-4xl">
             Getting your authority was the hard part.
             <br />
             <span className="text-flame">Finding the right insurance shouldn't be.</span>
           </h2>
-          <div className="mt-6 max-w-3xl space-y-4 text-lg text-steel">
+          <div className="mt-6 max-w-3xl space-y-4 text-lg text-muted">
             <p>
               You just got your MC/DOT number. Now everyone wants proof of
               insurance before they'll give you a load.
@@ -176,17 +176,17 @@ export default function HomePage() {
               Most agents don't understand new authorities. They quote you
               high, or they can't get you covered at all.
             </p>
-            <p className="font-semibold text-ink">That's not how we work.</p>
+            <p className="font-semibold text-foreground">That's not how we work.</p>
           </div>
         </div>
       </section>
 
       {/* Guide section */}
       <section className="container-narrow py-16">
-        <h2 className="text-3xl font-bold text-ink sm:text-4xl">
+        <h2 className="text-3xl font-bold text-foreground sm:text-4xl">
           We know trucking insurance.
         </h2>
-        <div className="mt-6 max-w-3xl space-y-4 text-lg text-steel">
+        <div className="mt-6 max-w-3xl space-y-4 text-lg text-muted">
           <p>
             Vantage Point Risk Partners is an independent insurance agency that
             specializes in trucking. We work with 23+ carriers. We know which
@@ -195,14 +195,14 @@ export default function HomePage() {
           <p>
             We've helped hundreds of owner-ops get covered and get hauling.
           </p>
-          <p className="font-semibold text-ink">
+          <p className="font-semibold text-foreground">
             We work for you. Not the insurance company.
           </p>
         </div>
       </section>
 
       {/* 3 step plan */}
-      <section className="bg-ink text-white">
+      <section className="bg-bg text-white">
         <div className="container-narrow py-16">
           <h2 className="text-3xl font-bold sm:text-4xl">
             Get covered in 3 steps.
@@ -225,12 +225,12 @@ export default function HomePage() {
                 body: "Same-day coverage available. Certificate of insurance sent immediately.",
               },
             ].map((s) => (
-              <div key={s.n} className="rounded-lg border border-mist/10 bg-steel/40 p-6">
+              <div key={s.n} className="rounded-lg border border-border bg-surface p-6">
                 <div className="grid h-12 w-12 place-items-center rounded-full bg-flame text-xl font-black">
                   {s.n}
                 </div>
                 <h3 className="mt-4 text-xl font-bold">{s.title}</h3>
-                <p className="mt-2 text-base text-mist">{s.body}</p>
+                <p className="mt-2 text-base text-foreground">{s.body}</p>
               </div>
             ))}
           </div>
@@ -245,32 +245,32 @@ export default function HomePage() {
       {/* Social proof */}
       <section className="container-narrow py-16">
         <div className="grid gap-8 md:grid-cols-3">
-          <div className="rounded-lg border border-ink/10 p-6 text-center">
+          <div className="rounded-lg border border-border p-6 text-center">
             <div className="text-4xl font-extrabold text-flame">23+</div>
-            <p className="mt-2 text-sm font-semibold uppercase tracking-wider text-ink">
+            <p className="mt-2 text-sm font-semibold uppercase tracking-wider text-foreground">
               Carrier markets
             </p>
-            <p className="mt-2 text-sm text-steel">
+            <p className="mt-2 text-sm text-muted">
               We shop your account across more than two dozen trucking
               carriers in a single quote.
             </p>
           </div>
-          <div className="rounded-lg border border-ink/10 p-6 text-center">
+          <div className="rounded-lg border border-border p-6 text-center">
             <div className="text-4xl font-extrabold text-flame">100s</div>
-            <p className="mt-2 text-sm font-semibold uppercase tracking-wider text-ink">
+            <p className="mt-2 text-sm font-semibold uppercase tracking-wider text-foreground">
               Owner-ops covered
             </p>
-            <p className="mt-2 text-sm text-steel">
+            <p className="mt-2 text-sm text-muted">
               From box trucks and hot shots to flatbed, reefer, and dry van
               owner operators.
             </p>
           </div>
-          <div className="rounded-lg border border-ink/10 p-6 text-center">
+          <div className="rounded-lg border border-border p-6 text-center">
             <div className="text-4xl font-extrabold text-flame">★★★★★</div>
-            <p className="mt-2 text-sm font-semibold uppercase tracking-wider text-ink">
+            <p className="mt-2 text-sm font-semibold uppercase tracking-wider text-foreground">
               Google reviews
             </p>
-            <p className="mt-2 text-sm text-steel">
+            <p className="mt-2 text-sm text-muted">
               Truckers say what matters: fast quotes, fair rates, real people on
               the phone.{" "}
               <Link href="/trucking-insurance-reviews" className="font-semibold text-flame hover:underline">
@@ -280,19 +280,19 @@ export default function HomePage() {
           </div>
         </div>
 
-        <div className="mt-10 rounded-lg border border-dashed border-ink/20 bg-mist/40 p-6 text-center text-sm text-steel">
+        <div className="mt-10 rounded-lg border border-dashed border-border bg-surface p-6 text-center text-sm text-muted">
           Carrier logo strip · 23+ markets including national and specialty
           trucking insurers
         </div>
       </section>
 
       {/* FAQ Preview */}
-      <section className="bg-mist">
+      <section className="bg-surface">
         <div className="container-narrow py-16">
-          <h2 className="text-3xl font-bold text-ink sm:text-4xl">
+          <h2 className="text-3xl font-bold text-foreground sm:text-4xl">
             Common questions.
           </h2>
-          <p className="mt-2 text-lg text-steel">
+          <p className="mt-2 text-lg text-muted">
             Quick answers to what new authority truckers ask us most.
           </p>
           <div className="mt-8">

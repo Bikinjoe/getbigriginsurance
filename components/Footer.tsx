@@ -3,7 +3,7 @@ import { site } from "@/lib/site";
 
 export default function Footer() {
   return (
-    <footer className="mt-20 border-t border-ink/10 bg-ink text-mist">
+    <footer className="mt-20 border-t border-border bg-bg text-foreground">
       <div className="container-narrow py-12">
         <div className="grid gap-10 sm:grid-cols-2 lg:grid-cols-4">
           <div>
@@ -13,7 +13,7 @@ export default function Footer() {
               </span>
               <span>GetBigRigInsurance</span>
             </div>
-            <p className="mt-3 text-sm text-mist/80">
+            <p className="mt-3 text-sm text-muted">
               {site.legalName}. Independent trucking insurance agency
               specializing in new authority and owner operator coverage.
             </p>
@@ -66,7 +66,7 @@ export default function Footer() {
           </div>
         </div>
 
-        <div className="mt-10 border-t border-mist/10 pt-6 text-xs text-mist/70">
+        <div className="mt-10 border-t border-border pt-6 text-xs text-muted">
           <p>
             © {new Date().getFullYear()} {site.legalName}. Licensed independent
             insurance agency. Not affiliated with any single carrier. Quotes are
@@ -77,7 +77,7 @@ export default function Footer() {
             <a href="https://vantagepointrisk.com" className="hover:text-flame">vantagepointrisk.com</a>{" "}·{" "}
             <a href="https://truckpolicy.com" className="hover:text-flame">truckpolicy.com</a>
           </p>
-          <p className="mt-3 text-mist">
+          <p className="mt-3 text-foreground">
             <a
               href={site.parentSiteUrl}
               className="font-semibold text-flame hover:underline"

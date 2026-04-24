@@ -37,11 +37,11 @@ export default function FAQPage() {
       <Breadcrumbs items={[{ label: "FAQ" }]} />
 
       <section className="container-narrow py-10">
-        <div className="rounded-lg border border-ink/10 bg-mist p-5">
-          <p className="text-sm font-semibold uppercase tracking-wider text-ink">
+        <div className="rounded-lg border border-border bg-surface p-5">
+          <p className="text-sm font-semibold uppercase tracking-wider text-foreground">
             Jump to a question
           </p>
-          <ol className="mt-3 grid list-decimal gap-2 pl-5 text-sm text-steel sm:grid-cols-2">
+          <ol className="mt-3 grid list-decimal gap-2 pl-5 text-sm text-muted sm:grid-cols-2">
             {faqs.map((f) => (
               <li key={f.slug}>
                 <Link href={`#${f.slug}`} className="hover:text-flame">
@@ -58,9 +58,9 @@ export default function FAQPage() {
           <article
             key={f.slug}
             id={f.slug}
-            className="scroll-mt-24 border-b border-ink/10 pb-8 last:border-none"
+            className="scroll-mt-24 border-b border-border pb-8 last:border-none"
           >
-            <h2 className="text-2xl font-bold text-ink sm:text-3xl">
+            <h2 className="text-2xl font-bold text-foreground sm:text-3xl">
               {f.question}
             </h2>
             <div className="prose-trucking mt-3">
@@ -74,13 +74,13 @@ export default function FAQPage() {
               </Link>
               <Link
                 href="/how-much-does-trucking-insurance-cost"
-                className="text-steel hover:text-flame"
+                className="text-muted hover:text-flame"
               >
                 See cost breakdown
               </Link>
               <Link
                 href="/what-insurance-do-i-need-new-trucking-authority"
-                className="text-steel hover:text-flame"
+                className="text-muted hover:text-flame"
               >
                 Coverage guide
               </Link>

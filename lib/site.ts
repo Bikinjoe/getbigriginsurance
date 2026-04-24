@@ -18,8 +18,24 @@ export const site = {
     { label: "New Authority", href: "/new-authority" },
     { label: "Owner Operator", href: "/owner-operator" },
     { label: "Cost", href: "/how-much-does-trucking-insurance-cost" },
-    { label: "FAQ", href: "/faq" },
+    {
+      label: "Resources",
+      children: [
+        { label: "FAQ", href: "/faq" },
+        { label: "Problems We Fix", href: "/trucking-insurance-problems" },
+        { label: "Cost Calculator", href: "/trucking-insurance-calculator" },
+        { label: "Reviews", href: "/trucking-insurance-reviews" },
+      ],
+    },
     { label: "About", href: "/about" },
     { label: "Blog", href: "/blog" },
-  ],
+  ] as NavItem[],
 };
+
+export type NavLeaf = { label: string; href: string };
+export type NavGroup = { label: string; children: NavLeaf[] };
+export type NavItem = NavLeaf | NavGroup;
+
+export function isNavGroup(item: NavItem): item is NavGroup {
+  return "children" in item;
+}

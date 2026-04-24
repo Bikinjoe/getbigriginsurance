@@ -10,7 +10,7 @@ const YouTubeLite = dynamic(() => import("./YouTubeLite"), {
   loading: () => (
     <div
       aria-hidden
-      className="mt-8 aspect-video w-full animate-pulse overflow-hidden rounded-lg border border-ink/10 bg-mist"
+      className="mt-8 aspect-video w-full animate-pulse overflow-hidden rounded-lg border border-border bg-surface"
     />
   ),
 });

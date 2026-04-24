@@ -18,7 +18,7 @@ export default function YouTubeLite({ id, label }: Props) {
   const thumb = `https://i.ytimg.com/vi/${id}/hqdefault.jpg`;
 
   return (
-    <figure className="mt-8 overflow-hidden rounded-lg border border-ink/10 bg-ink text-white">
+    <figure className="mt-8 overflow-hidden rounded-lg border border-border bg-bg text-white">
       {active ? (
         <iframe
           className="aspect-video w-full"
@@ -53,7 +53,7 @@ export default function YouTubeLite({ id, label }: Props) {
           </span>
         </button>
       )}
-      <figcaption className="px-4 py-3 text-sm font-medium text-mist">
+      <figcaption className="px-4 py-3 text-sm font-medium text-foreground">
         Watch: {label}
       </figcaption>
     </figure>
