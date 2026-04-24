@@ -8,7 +8,7 @@ import { site } from "@/lib/site";
 export const metadata = {
   title: "About | We Specialize in Trucking Insurance",
   description:
-    "Vantage Point Risk Partners is an independent insurance agency that specializes in trucking. Serving WA, OR, CA, ID, MT, WY, NV, UT, CO, NM, AZ & TX. 23+ carriers, real people, real phone number.",
+    "Vantage Point Risk Partners is an independent insurance agency that specializes in trucking. Serving AZ, CA, CO, ID, MT, NM, NV, OR, TX, UT, WA & WY. 23+ carriers, real people, real phone number.",
 };
 
 export default function AboutPage() {

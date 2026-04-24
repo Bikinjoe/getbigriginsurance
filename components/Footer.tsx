@@ -84,7 +84,7 @@ export default function Footer() {
               target="_blank"
               rel="noopener noreferrer"
             >
-              Powered by Vantage Point Risk Partners — your trucking insurance agency
+              Powered by Vantage Point Risk Partners
             </a>
           </p>
         </div>

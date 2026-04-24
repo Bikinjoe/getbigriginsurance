@@ -23,7 +23,7 @@ We don't write about: general business advice that has nothing to do with trucki
 
 ## Who writes this
 
-Posts come from us — Vantage Point Risk Partners. We're an independent trucking insurance agency. Serving WA, OR, CA, ID, MT, WY, NV, UT, CO, NM, AZ & TX. We work with 23+ carriers and specialize in single-truck operations and small fleets.
+Posts come from us — Vantage Point Risk Partners. We're an independent trucking insurance agency. Serving AZ, CA, CO, ID, MT, NM, NV, OR, TX, UT, WA & WY. We work with 23+ carriers and specialize in single-truck operations and small fleets.
 
 ## Use the content however you want
 

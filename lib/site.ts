@@ -8,8 +8,8 @@ export const site = {
   email: "richard@vantagepointrisk.com",
   emailHref: "mailto:richard@vantagepointrisk.com",
   quotePath: "/get-a-quote",
-  serviceArea: "Serving WA, OR, CA, ID, MT, WY, NV, UT, CO, NM, AZ & TX",
-  serviceStates: ["WA", "OR", "CA", "ID", "MT", "WY", "NV", "UT", "CO", "NM", "AZ", "TX"],
+  serviceArea: "Serving AZ, CA, CO, ID, MT, NM, NV, OR, TX, UT, WA & WY",
+  serviceStates: ["AZ", "CA", "CO", "ID", "MT", "NM", "NV", "OR", "TX", "UT", "WA", "WY"],
   carrierCount: "23+",
   description:
     "Trucking insurance for new authorities and owner operators. We shop 23+ carriers to find the right coverage at a fair rate. Same-day coverage available.",
